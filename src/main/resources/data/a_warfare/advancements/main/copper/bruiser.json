@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/copper/boomstick",
+  "criteria": {
+    "bruiser": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:bruiser"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.bruiser.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:bruiser"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.bruiser"
+    }
+  },
+  "requirements": [
+    [
+      "bruiser"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "scguns:supply_crate",
-    "scguns:advanced_composter",
-    "scguns:powder_keg",
-    "scguns:nitro_keg",
-    "scguns:gun_shelf"
+    "a_warfare:supply_crate",
+    "a_warfare:advanced_composter",
+    "a_warfare:powder_keg",
+    "a_warfare:nitro_keg",
+    "a_warfare:gun_shelf"
   ]
 }

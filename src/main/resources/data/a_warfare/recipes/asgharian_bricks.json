@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "X": {
+      "item": "a_warfare:phosphor_dust"
+    },
+    "Q": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QXQ",
+    "QQQ"
+  ],
+  "result": {
+    "item": "a_warfare:asgharian_bricks",
+    "count": 8
+  }
+}

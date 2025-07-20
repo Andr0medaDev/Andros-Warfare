@@ -1,0 +1,27 @@
+{
+  "type": "a_warfare:macerating",
+  "processingTime": 200,
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:raw_iron"
+      }
+    ],
+    {
+      "item": "a_warfare:niter_dust"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:treated_iron_blend",
+    "count": 3
+  }
+}

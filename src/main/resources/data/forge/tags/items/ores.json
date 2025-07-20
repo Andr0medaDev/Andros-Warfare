@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "scguns:anthralite_ore",
-    "scguns:sulfur_ore"
+    "a_warfare:anthralite_ore",
+    "a_warfare:sulfur_ore"
   ]
 }

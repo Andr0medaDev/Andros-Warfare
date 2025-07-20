@@ -1,0 +1,26 @@
+{
+	"parent": "a_warfare:item/pistol_ammo_box_0",
+	"textures": {
+		"layer0": "a_warfare:item/pistol_ammo_box"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"ammo_count": 0.33
+			},
+			"model": "a_warfare:item/pistol_ammo_box_1"
+		},
+		{
+			"predicate": {
+				"ammo_count": 0.66
+			},
+			"model": "a_warfare:item/pistol_ammo_box_2"
+		},
+		{
+			"predicate": {
+				"ammo_count": 1.0
+			},
+			"model": "a_warfare:item/pistol_ammo_box_3"
+		}
+	]
+}

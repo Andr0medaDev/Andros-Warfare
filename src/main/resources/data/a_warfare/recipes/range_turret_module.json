@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "Q": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "pattern": [
+    " X ",
+    "#Q#",
+    "Q#Q"
+  ],
+  "result": {
+    "item": "a_warfare:range_turret_module"
+  }
+}

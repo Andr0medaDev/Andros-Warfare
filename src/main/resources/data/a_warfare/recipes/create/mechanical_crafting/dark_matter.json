@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "a_warfare:rapid_firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:gun_magazine"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "I": {
+      "item": "a_warfare:diamond_steel_gun_frame"
+    },
+    "X": {
+      "item": "minecraft:shulker_shell"
+    },
+    "O": {
+      "item": "a_warfare:end_blueprint"
+    },
+    "P": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "pattern": [
+    "XICO",
+    "LRSS",
+    "Q P "
+  ],
+  "result": {
+    "item": "a_warfare:dark_matter"
+  }
+}

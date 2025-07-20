@@ -1,19 +1,19 @@
 {
   "values": [
-    "scguns:anthralite_helmet",
-    "scguns:anthralite_chestplate",
-    "scguns:anthralite_leggings",
-    "scguns:anthralite_boots",
-    "scguns:adrien_chestplate",
-    "scguns:adrien_leggings",
-    "scguns:adrien_boots",
-    "scguns:diamond_steel_helmet",
-    "scguns:diamond_steel_chestplate",
-    "scguns:diamond_steel_leggings",
-    "scguns:diamond_steel_boots",
-    "scguns:treated_brass_helmet",
-    "scguns:treated_brass_chestplate",
-    "scguns:treated_brass_leggings",
-    "scguns:treated_brass_boots"
+    "a_warfare:anthralite_helmet",
+    "a_warfare:anthralite_chestplate",
+    "a_warfare:anthralite_leggings",
+    "a_warfare:anthralite_boots",
+    "a_warfare:adrien_chestplate",
+    "a_warfare:adrien_leggings",
+    "a_warfare:adrien_boots",
+    "a_warfare:diamond_steel_helmet",
+    "a_warfare:diamond_steel_chestplate",
+    "a_warfare:diamond_steel_leggings",
+    "a_warfare:diamond_steel_boots",
+    "a_warfare:treated_brass_helmet",
+    "a_warfare:treated_brass_chestplate",
+    "a_warfare:treated_brass_leggings",
+    "a_warfare:treated_brass_boots"
   ]
 }

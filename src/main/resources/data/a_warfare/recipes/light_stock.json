@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "Q": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "   ",
+    "WQR",
+    "WQ "
+  ],
+  "result": {
+    "item": "a_warfare:light_stock"
+  }
+}

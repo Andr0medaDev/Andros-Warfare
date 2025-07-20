@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/diamond_steel_blueprint",
+  "criteria": {
+    "krauser": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:krauser"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.krauser.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:krauser"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.krauser"
+    }
+  },
+  "requirements": [
+    [
+      "krauser"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

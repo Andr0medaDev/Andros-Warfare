@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "A A",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "a_warfare:treated_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:bucket"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "a_warfare:anthralite_ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "result": {
+    "item": "a_warfare:anthralite_shovel"
+  },
+  "template": {
+    "item": "minecraft:leather"
+  }
+}

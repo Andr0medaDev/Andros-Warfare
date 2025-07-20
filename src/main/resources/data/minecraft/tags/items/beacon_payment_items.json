@@ -1,9 +1,9 @@
 {
   "values": [
-    "scguns:anthralite_ingot",
-    "scguns:treated_iron_ingot",
-    "scguns:treated_brass_ingot",
-    "scguns:diamond_steel_ingot",
-    "scguns:vehement_coal"
+    "a_warfare:anthralite_ingot",
+    "a_warfare:treated_iron_ingot",
+    "a_warfare:treated_brass_ingot",
+    "a_warfare:diamond_steel_ingot",
+    "a_warfare:vehement_coal"
   ]
 }

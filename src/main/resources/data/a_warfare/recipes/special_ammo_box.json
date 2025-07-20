@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "tag": "minecraft:planks"
+    },
+
+    "N": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "Q Q",
+    "QNQ"
+  ],
+  "result": {
+    "item": "a_warfare:special_ammo_box"
+  }
+}

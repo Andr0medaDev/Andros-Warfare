@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "a_warfare:diamond_steel_blueprint"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "a_warfare:treated_brass_blueprint"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "a_warfare:iron_blueprint"
+        }
+      ]
+    }
+  ]
+}

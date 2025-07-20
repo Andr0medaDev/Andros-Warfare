@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    [
+      {
+        "item": "a_warfare:sulfur_chunk"
+      },
+      {
+        "tag": "forge:dusts/sulfur"
+      }
+    ],
+    {
+      "item": "a_warfare:niter_dust"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "a_warfare:phosphor_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 12,
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "phosphorite",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "a_warfare:rich_phosphorite"
+  },
+  "result": "a_warfare:raw_phosphor",
+  "count": 2
+}

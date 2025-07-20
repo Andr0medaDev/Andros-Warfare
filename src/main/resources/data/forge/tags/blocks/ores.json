@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "scguns:anthralite_ore",
-    "scguns:sulfur_ore",
-    "scguns:deepslate_sulfur_ore",
-    "scguns:deepslate_anthralite_ore",
-    "scguns:nether_sulfur_ore",
-    "scguns:vehement_coal_ore"
+    "a_warfare:anthralite_ore",
+    "a_warfare:sulfur_ore",
+    "a_warfare:deepslate_sulfur_ore",
+    "a_warfare:deepslate_anthralite_ore",
+    "a_warfare:nether_sulfur_ore",
+    "a_warfare:vehement_coal_ore"
   ]
 }

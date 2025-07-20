@@ -1,0 +1,13 @@
+{
+  "type": "a_warfare:macerating",
+  "processingTime": 300,
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:netherite_scrap_chunk",
+    "count": 8
+  }
+}

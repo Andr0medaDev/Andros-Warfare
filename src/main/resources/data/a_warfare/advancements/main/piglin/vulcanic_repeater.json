@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/piglin/freyr",
+  "criteria": {
+    "vulcanic_repeater": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:vulcanic_repeater"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.vulcanic_repeater.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:vulcanic_repeater"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.vulcanic_repeater"
+    }
+  },
+  "requirements": [
+    [
+      "vulcanic_repeater"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

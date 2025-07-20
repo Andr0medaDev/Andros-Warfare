@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "a_warfare:phosphorite"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "chance": 0.5,
+      "item": "a_warfare:phosphor_dust"
+    }
+  ]
+}

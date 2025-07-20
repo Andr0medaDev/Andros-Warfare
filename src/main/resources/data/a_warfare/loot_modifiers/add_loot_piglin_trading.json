@@ -1,0 +1,11 @@
+{
+  "type": "a_warfare:add_loot_table",
+  "conditions":
+  [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:gameplay/piglin_bartering"
+    }
+  ],
+  "lootTable": "a_warfare:gameplay/a_warfare_piglin_bartering"
+}

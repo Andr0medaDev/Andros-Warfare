@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "a_warfare:niter_dust"
+    },
+    "Q": {
+      "item": "minecraft:paper"
+    },
+    "Z": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "pattern": [
+    " Q ",
+    "ZHZ",
+    " Q "
+  ],
+  "result": {
+    "item": "a_warfare:cold_pack",
+    "count": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:small_iron_casing",
+    "a_warfare:empty_cell",
+    "a_warfare:large_iron_casing",
+    "a_warfare:small_copper_casing",
+    "a_warfare:medium_copper_casing",
+    "a_warfare:small_brass_casing",
+    "a_warfare:medium_brass_casing",
+    "a_warfare:large_brass_casing",
+    "a_warfare:small_diamond_steel_casing",
+    "a_warfare:medium_diamond_steel_casing",
+    "a_warfare:shulker_casing"
+  ]
+}

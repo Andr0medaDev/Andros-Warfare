@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/craft_polar_generator",
+  "criteria": {
+    "powered_macerator": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:powered_macerator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.craft_powered_macerator.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:powered_macerator"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.craft_powered_macerator"
+    }
+  },
+  "requirements": [
+    [
+      "powered_macerator"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

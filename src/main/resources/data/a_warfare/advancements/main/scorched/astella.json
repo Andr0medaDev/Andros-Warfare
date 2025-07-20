@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/scorched/earths_corpse",
+  "criteria": {
+    "astella": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:astella"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.astella.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:astella"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.astella"
+    }
+  },
+  "requirements": [
+    [
+      "astella"
+    ]
+  ],
+  "sscorcheds_telemetry_event": true
+}

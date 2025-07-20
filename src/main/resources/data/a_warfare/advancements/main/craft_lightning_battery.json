@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/root",
+  "criteria": {
+    "lightning_battery": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:lightning_battery"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.craft_lightning_battery.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:lightning_battery"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.craft_lightning_battery"
+    }
+  },
+  "requirements": [
+    [
+      "lightning_battery"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

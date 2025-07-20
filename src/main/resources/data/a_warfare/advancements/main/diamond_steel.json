@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/anthralite",
+  "criteria": {
+    "diamond_steel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:diamond_steel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.diamond_steel.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:diamond_steel_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.diamond_steel"
+    }
+  },
+  "requirements": [
+    [
+      "diamond_steel_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

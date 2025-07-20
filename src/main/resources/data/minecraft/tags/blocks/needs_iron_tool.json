@@ -1,15 +1,15 @@
 {
   "replace": false,
   "values": [
-    "scguns:anthralite_ore",
-    "scguns:deepslate_anthralite_ore",
-    "scguns:anthralite_block",
-    "scguns:raw_anthralite_block",
-    "scguns:lightning_battery",
-    "scguns:treated_iron_block",
-    "scguns:treated_brass_block",
-    "scguns:diamond_steel_block",
-    "scguns:felix_memorial",
-    "scguns:plasma_block"
+    "a_warfare:anthralite_ore",
+    "a_warfare:deepslate_anthralite_ore",
+    "a_warfare:anthralite_block",
+    "a_warfare:raw_anthralite_block",
+    "a_warfare:lightning_battery",
+    "a_warfare:treated_iron_block",
+    "a_warfare:treated_brass_block",
+    "a_warfare:diamond_steel_block",
+    "a_warfare:felix_memorial",
+    "a_warfare:plasma_block"
   ]
 }

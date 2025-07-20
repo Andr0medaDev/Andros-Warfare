@@ -1,0 +1,16 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 50,
+  "ingredients": [
+    {
+      "tag": "a_warfare:advanced_bullet_material"
+    }
+  ],
+  "mold": {
+    "item": "a_warfare:bullet_mold"
+  },
+  "result": {
+    "item": "a_warfare:hardened_bullet",
+    "count": 12
+  }
+}

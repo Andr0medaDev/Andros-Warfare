@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wither_skeleton",
+    "a_warfare:cog_minion",
+    "a_warfare:supply_scamp",
+    "a_warfare:sky_carrier",
+    "a_warfare:cog_knight",
+    "minecraft:wither",
+    "minecraft:iron_golem"
+  ]
+}

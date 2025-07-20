@@ -1,0 +1,66 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.8,
+      "yOffset": 2.2,
+      "zOffset": -10.0,
+      "textureLocation": "muzzle_flash_10"
+    },
+    "beamOrigin": {
+      "horizontalOffset": 0.09,
+      "verticalOffset": -0.075,
+      "forwardOffset": 0.28,
+      "aimHorizontalOffset": 0.0
+    }
+  },
+  "general": {
+    "hasCameraShake": false,
+    "fireMode": "a_warfare:beam",
+    "beamColor": "#ffea00",
+    "secondaryBeamColor": "#edc76c",
+    "enchantedBeamColor": "#27e2aa",
+    "enchantedSecondaryBeamColor": "#24b398",
+    "gripType": "a_warfare:mini_gun_2",
+    "baseGripType": "a_warfare:mini_gun_2",
+    "rate": 4,
+    "recoilAngle": 0.0,
+    "recoilKick": 0.0,
+    "spread": 3.0,
+    "meleeDamage": 4.0,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 10,
+    "beamAmmoConsumptionDelay": 10000,
+    "beamDamageDelay": 0,
+    "enableMining": true,
+    "miningSpeed": 10.0,
+    "beamMaxDistance": 30.0,
+    "criticalChance": 0.05
+  },
+  "modules": {
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 1.0,
+    "gravity": false,
+    "ejectsCasing": false,
+    "item": "a_warfare:energy_core",
+    "life": 50,
+    "size": 1.0,
+    "speed": 1.5,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 50,
+    "maxAmmo": 100,
+    "reloadItem": "a_warfare:energy_core",
+    "reloadByproduct": "a_warfare:depleted_energy_core",
+    "reloadTimer": 35,
+    "reloadType": "a_warfare:single_item"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.beam.fire",
+    "fire": "a_warfare:item.beam.fire",
+    "reload": "a_warfare:item.flamethrower.reload"
+  }
+}

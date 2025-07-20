@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "a_warfare:energy_cell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "a_warfare:end_blueprint"
+        }
+      ]
+    }
+  ]
+}

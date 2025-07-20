@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "L": {
+      "item": "a_warfare:rapid_firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "X": {
+      "item": "a_warfare:treated_brass_blueprint"
+    },
+    "K": {
+      "item": "a_warfare:treated_brass_gun_frame"
+    },
+    "M": {
+      "item": "a_warfare:gun_magazine"
+    }
+  },
+  "pattern": [
+    "QKSS",
+    "LRSS",
+    "K MX"
+  ],
+  "result": {
+    "item": "a_warfare:thunderhead"
+  }
+}

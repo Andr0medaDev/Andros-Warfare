@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "R": {
+      "item": "minecraft:smooth_stone"
+    },
+    "S": {
+      "item": "a_warfare:stone_gun_barrel"
+    },
+    "I": {
+      "item": "a_warfare:gun_parts"
+    },
+    "X": {
+      "item": "a_warfare:rapid_firing_unit"
+    }
+  },
+  "pattern": [
+    "XI   ",
+    "LRSS ",
+    "Q C  "
+  ],
+  "result": {
+    "item": "a_warfare:repeating_musket"
+  }
+}

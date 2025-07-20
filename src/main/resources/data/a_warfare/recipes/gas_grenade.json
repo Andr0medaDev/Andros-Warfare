@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "throwable",
+  "key": {
+    "#": {
+      "item": "a_warfare:treated_iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:glass_bottle"
+    },
+    "Q": {
+      "tag": "forge:dusts/sulfur"
+    },
+    "T": {
+      "item": "a_warfare:phosphor_dust"
+    }
+  },
+  "pattern": [
+    " T ",
+    "QXQ",
+    " # "
+  ],
+  "result": {
+    "item": "a_warfare:gas_grenade"
+  }
+}

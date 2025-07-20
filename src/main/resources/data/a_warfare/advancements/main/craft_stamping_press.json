@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/root",
+  "criteria": {
+    "stamping_press": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:mechanical_press"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.craft_stamping_press.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:mechanical_press"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.craft_stamping_press"
+    }
+  },
+  "requirements": [
+    [
+      "stamping_press"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

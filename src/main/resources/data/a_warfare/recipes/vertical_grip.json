@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Q": {
+      "item": "a_warfare:anthralite_nugget"
+    }
+  },
+  "pattern": [
+    "   ",
+    "QXQ",
+    " # "
+  ],
+  "result": {
+    "item": "a_warfare:vertical_grip"
+  }
+}

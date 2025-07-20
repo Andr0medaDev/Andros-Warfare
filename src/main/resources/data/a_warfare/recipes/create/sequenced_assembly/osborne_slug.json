@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "a_warfare:large_iron_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:osborne_slug"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_osborne_slug"
+        },
+        [
+          {
+            "item": "a_warfare:nitro_powder_dust"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_osborne_slug"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_osborne_slug"
+        },
+        [
+          {
+            "item": "a_warfare:nether_star_fragment"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_osborne_slug"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_osborne_slug"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_osborne_slug"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_osborne_slug"
+  }
+}

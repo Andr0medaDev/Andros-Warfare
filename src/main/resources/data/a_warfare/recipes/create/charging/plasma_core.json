@@ -1,0 +1,13 @@
+{
+	"type":"createaddition:charging",
+	"input": {
+      	"item": "a_warfare:energy_core",
+		"count": 1
+	},
+	"result": {
+		"item": "a_warfare:plasma_core",
+		"count": 1
+	},
+	"energy": 16000,
+	"maxChargeRate": 400
+}

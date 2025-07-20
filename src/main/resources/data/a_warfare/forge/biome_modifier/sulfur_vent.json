@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": ["minecraft:nether_wastes"],
+  "features": "a_warfare:patch_sulfur_vent",
+  "step": "vegetal_decoration"
+}

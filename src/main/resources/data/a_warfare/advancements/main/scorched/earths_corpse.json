@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/scorched/newborn_cyst",
+  "criteria": {
+    "earths_corpse": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:earths_corpse"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.earths_corpse.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:earths_corpse"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.earths_corpse"
+    }
+  },
+  "requirements": [
+    [
+      "earths_corpse"
+    ]
+  ],
+  "sscorcheds_telemetry_event": true
+}

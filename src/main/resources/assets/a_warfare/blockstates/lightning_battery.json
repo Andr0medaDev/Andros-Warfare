@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "charge_level=none": { "model": "a_warfare:block/lightning_battery_no_power" },
+    "charge_level=low": { "model": "a_warfare:block/lightning_battery_low_power" },
+    "charge_level=mid": { "model": "a_warfare:block/lightning_battery_mid_power" },
+    "charge_level=high": { "model": "a_warfare:block/lightning_battery_high_power" }
+  }
+}

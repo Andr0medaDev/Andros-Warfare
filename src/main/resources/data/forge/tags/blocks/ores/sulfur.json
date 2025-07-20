@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "scguns:sulfur_ore",
-    "scguns:deepslate_sulfur_ore",
-    "scguns:nether_sulfur_ore"
+    "a_warfare:sulfur_ore",
+    "a_warfare:deepslate_sulfur_ore",
+    "a_warfare:nether_sulfur_ore"
   ]
 }

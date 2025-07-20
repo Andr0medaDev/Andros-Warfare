@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/end_blueprint",
+  "criteria": {
+    "carapice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:carapice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.carapice.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:carapice"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.carapice"
+    }
+  },
+  "requirements": [
+    [
+      "carapice"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

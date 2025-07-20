@@ -1,0 +1,17 @@
+{
+  "type": "a_warfare:powered_mechanical_pressing",
+  "processingTime": 15,
+  "energyUse": 500,
+  "ingredients": [
+    {
+      "tag": "a_warfare:standard_bullet_material"
+    }
+  ],
+  "mold": {
+    "item": "a_warfare:bullet_mold"
+  },
+  "result": {
+    "item": "a_warfare:standard_bullet",
+    "count": 12
+  }
+}

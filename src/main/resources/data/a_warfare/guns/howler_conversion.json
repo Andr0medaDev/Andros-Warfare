@@ -1,0 +1,84 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": 4.5,
+      "zOffset": -14.0,
+      "textureLocation": "muzzle_flash_1"
+    }
+  },
+  "general": {
+    "alwaysSpread": true,
+    "fireMode": "a_warfare:automatic",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "rate": 3,
+    "recoilAngle": 11.0,
+    "recoilKick": 3.5,
+    "spread": 4.2,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20,
+    "meleeReach": 3.5,
+    "hotBarrelRate": 25,
+    "criticalChance": 0.05,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.15
+
+  },
+  "modules": {
+    "attachments": {
+      "barrel": {
+        "yOffset": 4.5,
+        "zOffset": -16.0
+      },
+      "scope": {
+        "size": 0.7,
+        "yOffset": 6.5,
+        "zOffset": 6.0
+      },
+      "stock": {
+        "scale": 0.0
+      },
+      "underBarrel": {
+        "yOffset": 5.5,
+        "zOffset": -2.5
+      },
+      "magazine": {
+        "scale": 0.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 7.2,
+      "zOffset": -1.0
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:heavy",
+    "damage": 23.5,
+    "ejectsCasing": true,
+    "gravity": false  ,
+    "item": "a_warfare:krahg_round",
+    "casingType": "a_warfare:large_brass_casing",
+    "casingParticle": "a_warfare:brass_casing",
+    "life": 65,
+    "size": 0.1,
+    "speed": 13.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 9,
+    "reloadItem": "a_warfare:krahg_round",
+    "reloadTimer": 30,
+    "reloadType": "a_warfare:mag_fed"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.heavier_rifle.fire",
+    "fire": "a_warfare:item.heavier_rifle.fire",
+    "reload": "a_warfare:item.gauss.reload",
+    "silencedFire": "a_warfare:item.bruiser.silenced_fire",
+    "flyby": "a_warfare:bullet.flyby1"
+  }
+}

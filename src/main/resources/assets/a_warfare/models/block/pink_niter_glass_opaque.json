@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "a_warfare:block/pink_niter_glass_opaque"
+  }
+}

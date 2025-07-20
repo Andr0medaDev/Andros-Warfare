@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass/jackhammer",
+  "criteria": {
+    "howler": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:howler"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.howler.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:howler"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.howler"
+    }
+  },
+  "requirements": [
+    [
+      "howler"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

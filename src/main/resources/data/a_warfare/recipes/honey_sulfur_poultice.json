@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "a_warfare:sulfur_dust"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+
+  ],
+  "result": {
+    "count": 2,
+    "item": "a_warfare:honey_sulfur_poultice"
+  }
+}

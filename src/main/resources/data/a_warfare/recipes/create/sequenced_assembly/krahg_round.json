@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "a_warfare:large_brass_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:krahg_round"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_krahg_round"
+        },
+        [
+          {
+            "item": "a_warfare:nitro_powder_dust"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_krahg_round"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_krahg_round"
+        },
+        [
+          {
+            "item": "a_warfare:anthralite_nugget"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_krahg_round"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_krahg_round"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_krahg_round"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_krahg_round"
+  }
+}

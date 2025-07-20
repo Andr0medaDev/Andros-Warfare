@@ -1,0 +1,18 @@
+{
+  "type": "a_warfare:powered_mechanical_pressing",
+  "processingTime": 200,
+  "energyUse": 500,
+  "ingredients": [
+    {
+      "item": "minecraft:copper_block"
+    }
+
+  ],
+  "mold": {
+    "item": "a_warfare:disc_mold"
+  },
+  "result": {
+    "item": "a_warfare:copper_disc",
+    "count": 2
+  }
+}

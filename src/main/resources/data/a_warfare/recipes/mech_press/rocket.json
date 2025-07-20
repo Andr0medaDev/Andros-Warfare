@@ -1,0 +1,19 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 20,
+  "ingredients": [
+    {
+      "item": "a_warfare:large_iron_casing"
+    },
+    {
+      "item": "a_warfare:sheol"
+    },
+    {
+      "tag": "a_warfare:advanced_bullet_tips"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:rocket",
+    "count": 1
+  }
+}

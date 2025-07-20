@@ -1,0 +1,79 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": 4.7,
+      "zOffset": -11.5,
+      "textureLocation": "muzzle_flash_9"
+    },
+    "beamOrigin": {
+      "horizontalOffset": 0.1,
+      "verticalOffset": -0.05,
+      "forwardOffset": 0.6,
+      "aimHorizontalOffset": 0.0
+    }
+  },
+  "general": {
+    "hasCameraShake": false,
+    "alwaysSpread": false,
+    "fireMode": "a_warfare:semi_beam",
+    "beamColor": "#ff0000",
+    "secondaryBeamColor": "#e66363",
+    "enchantedBeamColor": "#FF71479e",
+    "enchantedSecondaryBeamColor": "#ff7fc3",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "rate": 8,
+    "recoilAngle": 2.7,
+    "recoilKick": 1.0,
+    "spread": 2.0,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 10,
+    "hotBarrelRate": 15,
+    "beamAmmoConsumptionDelay": 6000,
+    "beamDamageDelay": 10,
+    "beamMaxDistance": 100.0,
+    "criticalChance": 0.05
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "size": 0.8,
+        "yOffset": 6.35,
+        "zOffset": 5.2
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.7,
+      "zOffset": -1.5
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 15.0,
+    "ejectsCasing": false,
+    "gravity": false,
+    "item": "a_warfare:energy_core",
+    "life": 40,
+    "size": 1.0,
+    "speed": 7.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 50,
+    "maxAmmo": 12,
+    "reloadItem": "a_warfare:energy_core",
+    "reloadByproduct": "a_warfare:depleted_energy_core",
+    "reloadTimer": 20,
+    "reloadType": "a_warfare:single_item"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.plasma.fire",
+    "preFire": "a_warfare:item.gauss.pre_fire",
+    "fire": "a_warfare:item.plasma.fire",
+    "reload": "a_warfare:item.pistol.reload",
+    "flyby": "a_warfare:bullet.flyby1"
+  }
+}

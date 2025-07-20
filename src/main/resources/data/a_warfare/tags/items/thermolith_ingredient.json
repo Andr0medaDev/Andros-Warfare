@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:vehement_coal",
+    {"id":"create:blaze_cake",  "required":false}
+  ]
+}

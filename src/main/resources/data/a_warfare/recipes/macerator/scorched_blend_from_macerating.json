@@ -1,0 +1,22 @@
+{
+  "type": "a_warfare:macerating",
+  "processingTime": 200,
+  "ingredients": [
+    {
+      "item": "a_warfare:nether_star_fragment"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "a_warfare:vehement_coal"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:scorched_blend",
+    "count": 4
+  }
+}

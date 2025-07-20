@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "scguns:anthralite_block",
-    "scguns:sulfur_block"
+    "a_warfare:anthralite_block",
+    "a_warfare:sulfur_block"
   ]
 }

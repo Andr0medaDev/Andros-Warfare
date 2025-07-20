@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:paper"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:bearpack_shell"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_bearpack_shell"
+        },
+        [
+          {
+            "item": "a_warfare:medium_brass_casing"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_bearpack_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_bearpack_shell"
+        },
+        [
+          {
+            "item": "a_warfare:nitro_buckshot"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_bearpack_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_bearpack_shell"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_bearpack_shell"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_bearpack_shell"
+  }
+}

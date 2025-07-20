@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "a_warfare:shulker_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:shulkshot"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_shulkshot"
+        },
+        [
+          {
+            "tag": "a_warfare:gunpowder_dust"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_shulkshot"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_shulkshot"
+        },
+        [
+          {
+            "tag": "a_warfare:advanced_bullet_tips"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_shulkshot"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_shulkshot"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_shulkshot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_shulkshot"
+  }
+}

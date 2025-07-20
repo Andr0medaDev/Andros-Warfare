@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ammo",
+  "ingredients": [
+    {
+      "item": "a_warfare:gunpowder_dust"
+    },  {
+      "item": "a_warfare:gunpowder_dust"
+    },  {
+      "item": "a_warfare:gunpowder_dust"
+    },  {
+      "item": "a_warfare:gunpowder_dust"
+    },  {
+      "item": "a_warfare:gunpowder_dust"
+    },  {
+      "item": "a_warfare:gunpowder_dust"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:gunpowder"
+  }
+}

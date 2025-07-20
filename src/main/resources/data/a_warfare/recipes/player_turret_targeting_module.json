@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "Q": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    "Q#Q"
+  ],
+  "result": {
+    "item": "a_warfare:player_turret_targeting_module"
+  }
+}

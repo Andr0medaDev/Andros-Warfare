@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "a_warfare:block/asgharian_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "a_warfare:block/asgharian_pillar"
+    },
+    "axis=z": {
+      "model": "a_warfare:block/asgharian_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.24,
+      "yOffset": 3.5,
+      "zOffset": -7.0,
+      "textureLocation": "muzzle_flash_1"
+    }
+  },
+  "general": {
+    "alwaysSpread": true,
+    "fireMode": "a_warfare:semi_automatic",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "projectileAmount": 22,
+    "rate": 12,
+    "recoilAngle": 10.0,
+    "recoilKick": 0.5,
+    "spread": 14.0,
+    "meleeDamage": 3.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 25,
+    "criticalChance": 0.1,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.45
+  },
+  "modules": {
+    "attachments": {
+      "stock": {
+        "scale": 0.0
+      },
+      "underBarrel": {
+        "yOffset": 1.0,
+        "zOffset": 1.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 5.2,
+      "zOffset": 0.6
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:fire",
+    "damage": 15.0,
+    "item": "a_warfare:grapeshot",
+    "life": 30,
+    "size": 0.05,
+    "speed": 5.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 15,
+    "maxAmmo": 4,
+    "reloadItem": "a_warfare:grapeshot",
+    "reloadTimer": 30,
+    "reloadType": "a_warfare:manual"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.boomstick.fire",
+    "fire": "a_warfare:item.boomstick.fire",
+    "reload": "a_warfare:item.gauss.reload"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/root",
+  "criteria": {
+    "geothermal_vent": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:geothermal_vent"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.geothermal_vent.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:geothermal_vent"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.geothermal_vent"
+    }
+  },
+  "requirements": [
+    [
+      "geothermal_vent"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/blackpowder/blunderbuss",
+  "criteria": {
+    "repeating_musket": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:repeating_musket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.repeating_musket.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:repeating_musket"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.repeating_musket"
+    }
+  },
+  "requirements": [
+    [
+      "repeating_musket"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "a_warfare:advanced_bullet_material"
+    },
+    {
+      "item": "a_warfare:bullet_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "a_warfare:hardened_bullet",
+        "count": 12
+    }
+  ]
+}

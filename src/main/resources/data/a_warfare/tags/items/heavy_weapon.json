@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:gattaler",
+    "a_warfare:thunderhead",
+    "a_warfare:spitfire",
+    "a_warfare:cyclone",
+    "a_warfare:flayed_god",
+    "a_warfare:shard_culler"
+  ]
+}

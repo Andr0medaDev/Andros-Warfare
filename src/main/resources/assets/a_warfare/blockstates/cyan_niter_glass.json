@@ -1,0 +1,10 @@
+  {
+  "variants": {
+    "transparent=false": {
+      "model": "a_warfare:block/cyan_niter_glass_opaque"
+    },
+    "transparent=true": {
+      "model": "minecraft:block/cyan_stained_glass"
+    }
+  }
+}

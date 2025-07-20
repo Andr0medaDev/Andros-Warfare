@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "item": "a_warfare:gun_magazine"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "M": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "CMS",
+    "LRS",
+    "Q C"
+  ],
+  "result": {
+    "item": "a_warfare:callwell_conversion"
+  }
+}

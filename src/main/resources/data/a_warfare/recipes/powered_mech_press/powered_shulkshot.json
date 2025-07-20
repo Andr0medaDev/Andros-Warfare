@@ -1,0 +1,20 @@
+{
+  "type": "a_warfare:powered_mechanical_pressing",
+  "processingTime": 15,
+  "energyUse": 500,
+  "ingredients": [
+    {
+      "item": "a_warfare:shulker_casing"
+    },
+    {
+      "tag": "a_warfare:gunpowder_dust"
+    },
+    {
+      "tag": "a_warfare:advanced_bullet_tips"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:shulkshot",
+    "count": 1
+  }
+}

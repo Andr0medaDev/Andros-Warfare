@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "diamond_steel_ingot",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "a_warfare:diamond_steel_blend"
+  },
+  "result": "a_warfare:diamond_steel_ingot"
+}

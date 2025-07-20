@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/iron/gyrojet_pistol",
+  "criteria": {
+    "brawler": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:brawler"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.brawler.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:brawler"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.brawler"
+    }
+  },
+  "requirements": [
+    [
+      "brawler"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

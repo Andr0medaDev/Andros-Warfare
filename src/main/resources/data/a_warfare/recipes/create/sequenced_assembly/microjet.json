@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "a_warfare:stan_bullet_tips"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:microjet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_microjet"
+        },
+        [
+          {
+            "tag": "forge:gunpowder"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_microjet"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_microjet"
+        },
+        [
+          {
+            "item": "a_warfare:small_iron_casing"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_microjet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_microjet"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_microjet"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_microjet"
+  }
+}

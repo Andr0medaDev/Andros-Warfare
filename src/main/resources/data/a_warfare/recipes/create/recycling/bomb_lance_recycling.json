@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "a_warfare:bomb_lance"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:gun_barrel"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:firing_unit"
+    }
+  ]
+}

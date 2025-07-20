@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/blackpowder/flintlock_pistol",
+  "criteria": {
+    "handcannon": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:handcannon"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.handcannon.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:handcannon"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.handcannon"
+    }
+  },
+  "requirements": [
+    [
+      "handcannon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

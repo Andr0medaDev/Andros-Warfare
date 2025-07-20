@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "J": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "M": {
+      "item": "a_warfare:treated_brass_ingot"
+    },
+    "X": {
+      "item": "a_warfare:treated_brass_blueprint"
+    },
+    "K": {
+      "item": "a_warfare:treated_brass_gun_frame"
+    },
+    "A": {
+      "item": "a_warfare:empty_tank"
+    }
+
+  },
+  "pattern": [
+    "MKX ",
+    "LRJS",
+    "Q A "
+  ],
+  "result": {
+    "item": "a_warfare:gale"
+  }
+}

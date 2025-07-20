@@ -4,9 +4,9 @@
   "amountMin": 10.0,
   "biomeWhitelist": "minecraft:is_overworld",
   "icon": {
-    "item": "scguns:raw_anthralite"
+    "item": "a_warfare:raw_anthralite"
   },
-  "name": "{\"translate\":\"item.scguns.raw_anthralite\"}",
+  "name": "{\"translate\":\"item.a_warfare.raw_anthralite\"}",
   "placement": {
     "salt": 1544816476,
     "separation": 8,

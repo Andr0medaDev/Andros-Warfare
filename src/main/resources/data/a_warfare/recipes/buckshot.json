@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:gunpowder"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "a_warfare:buckshot"
+  }
+}

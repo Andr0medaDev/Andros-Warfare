@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "a_warfare:phosphorite"
+  },
+  "result": "a_warfare:phosphorite_bricks"
+}

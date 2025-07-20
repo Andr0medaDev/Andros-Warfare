@@ -6,17 +6,17 @@ plugins {
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
-version = "0.4.0-1.20.1"
-group = "top.ribs"
-archivesBaseName = "ScorchedGuns"
+version = "0.0.1-1.20.1"
+group = "top.andro"
+archivesBaseName = "AWarfare"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 mixin {
-    add sourceSets.main, "scguns.refmap.json"
-    config 'scguns.mixins.json'
+    add sourceSets.main, "a_warfare.refmap.json"
+    config 'a_warfare.mixins.json'
 }
 
 minecraft {
@@ -36,7 +36,7 @@ minecraft {
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
             mods {
-                scguns {
+                a_warfare {
                     source sourceSets.main
                 }
             }
@@ -48,9 +48,9 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-            arg '-mixin.config=scguns.mixins.json'
+            arg '-mixin.config=a_warfare.mixins.json'
             mods {
-                scguns {
+                a_warfare {
                     source sourceSets.main
                 }
             }
@@ -62,10 +62,10 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-            args '--mod', 'scguns', '--all', '--output', file('src/generated/resources/')
-            arg '-mixin.config=scguns.mixins.json'
+            args '--mod', 'a_warfare', '--all', '--output', file('src/generated/resources/')
+            arg '-mixin.config=a_warfare.mixins.json'
             mods {
-                scguns {
+                a_warfare {
                     source sourceSets.main
                 }
             }
@@ -132,14 +132,14 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "Scorched Guns",
-                "Specification-Vendor"    : "ribs",
+                "Specification-Title"     : "Andro's Warfare",
+                "Specification-Vendor"    : "andro",
                 "Specification-Version"   : "1",
-                "Implementation-Title"    : "Scorched Guns",
+                "Implementation-Title"    : "Andro's Warfare",
                 "Implementation-Version"  : project.version,
-                "Implementation-Vendor"   : "ribs",
+                "Implementation-Vendor"   : "andro",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                "MixinConfigs"            : "scguns.mixins.json"
+                "MixinConfigs"            : "a_warfare.mixins.json"
         ])
     }
 }

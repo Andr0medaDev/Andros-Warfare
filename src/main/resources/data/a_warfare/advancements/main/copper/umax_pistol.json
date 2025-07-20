@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/copper/llr_director",
+  "criteria": {
+    "umax_pistol": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:umax_pistol"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.umax_pistol.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:umax_pistol"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.umax_pistol"
+    }
+  },
+  "requirements": [
+    [
+      "umax_pistol"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

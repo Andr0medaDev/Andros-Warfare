@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/cowboy/callwell_conversion",
+  "criteria": {
+    "callwell": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:callwell"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.callwell.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:callwell"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.callwell"
+    }
+  },
+  "requirements": [
+    [
+      "callwell"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

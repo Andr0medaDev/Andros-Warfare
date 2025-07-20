@@ -1,0 +1,60 @@
+{
+  "display": {
+  },
+  "general": {
+    "alwaysSpread": false,
+    "fireMode": "a_warfare:semi_automatic",
+    "gripType": "a_warfare:one_handed",
+    "rate": 8,
+    "recoilAngle": 1.0,
+    "recoilKick": 1.0,
+    "spread": 0.1,
+    "meleeDamage": 2.0,
+    "meleeCooldownTicks": 15,
+    "meleeReach": 2.5,
+    "energyUse": 30.0,
+    "hotBarrelRate": 40,
+    "criticalChance": 0.05
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "size": 0.8,
+        "yOffset": 6.0,
+        "zOffset": 5.2
+      },
+      "stock": {
+        "scale": 0.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.3,
+      "zOffset": 0.85
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 6.0,
+    "ejectsCasing": false,
+    "gravity": true,
+    "item": "a_warfare:standard_bullet",
+    "life": 40,
+    "size": 1.0,
+    "speed": 6.0,
+    "trailLengthMultiplier": 0.2
+  },
+  "reloads": {
+    "emptyMagTimer": 30,
+    "maxAmmo": 6,
+    "reloadItem": "a_warfare:standard_bullet",
+    "reloadTimer": 15,
+    "reloadType": "a_warfare:manual"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.airgun.fire",
+    "fire": "a_warfare:item.airgun.fire",
+    "reload": "a_warfare:item.gauss.reload"
+  }
+}

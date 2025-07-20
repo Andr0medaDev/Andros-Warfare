@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/root",
+  "criteria": {
+    "polar_generator": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:polar_generator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.craft_polar_generator.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:polar_generator"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.craft_polar_generator"
+    }
+  },
+  "requirements": [
+    [
+      "polar_generator"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

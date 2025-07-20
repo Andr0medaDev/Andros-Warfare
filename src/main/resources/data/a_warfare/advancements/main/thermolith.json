@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/vehement_coal",
+  "criteria": {
+    "thermolith": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:thermolith"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.thermolith.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:thermolith"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.thermolith"
+    }
+  },
+  "requirements": [
+    [
+      "thermolith"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

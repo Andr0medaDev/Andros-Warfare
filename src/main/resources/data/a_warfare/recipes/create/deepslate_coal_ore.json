@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "a_warfare:deepslate_sulfur_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "a_warfare:sulfur_chunk"
+    },
+    {
+      "chance": 0.75,
+      "item": "a_warfare:sulfur_chunk"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}

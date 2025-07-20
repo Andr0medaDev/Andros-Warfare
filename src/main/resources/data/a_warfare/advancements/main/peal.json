@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/craft_macerator",
+  "criteria": {
+    "peal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:peal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.peal.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item":  "a_warfare:peal"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.peal"
+    }
+  },
+  "requirements": [
+    [
+      "peal"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

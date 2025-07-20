@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "L": {
+      "item": "a_warfare:rapid_firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "X": {
+      "item": "a_warfare:diamond_steel_blueprint"
+    },
+    "K": {
+      "item": "a_warfare:diamond_steel_gun_frame"
+    }
+  },
+  "pattern": [
+    "QKX ",
+    "LRSS",
+    "K K "
+  ],
+  "result": {
+    "item": "a_warfare:cyclone"
+  }
+}

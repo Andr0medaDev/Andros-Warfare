@@ -1,0 +1,10 @@
+{"type":"mekanism:enriching","input":{
+  "ingredient":[
+  {
+    "item": "a_warfare:anthralite_ore"
+  },
+  {
+    "item": "a_warfare:deepslate_anthralite_ore"
+  }
+]},
+  "output":{"count":2,"item":"a_warfare:anthralite_dust"}}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "anthralite_ingot",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "a_warfare:deepslate_anthralite_ore"
+  },
+  "result": "a_warfare:anthralite_ingot"
+}

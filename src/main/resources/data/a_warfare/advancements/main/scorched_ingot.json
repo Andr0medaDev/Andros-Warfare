@@ -1,0 +1,41 @@
+{
+  "parent": "a_warfare:main/vehement_coal",
+  "criteria": {
+    "scorched_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:scorched_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.scorched_ingot.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:scorched_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.scorched_ingot"
+    }
+  },
+  "requirements": [
+    [
+      "scorched_ingot"
+    ]
+  ],
+  "rewards": {
+  "experience": 200
+},
+  "sends_telemetry_event": true
+}

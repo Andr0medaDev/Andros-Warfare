@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "Q":     [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "a_warfare:treated_iron_ingot"
+      }
+    ],
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    "Q#Q"
+  ],
+  "result": {
+    "item": "a_warfare:hostile_turret_targeting_module"
+  }
+}

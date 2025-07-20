@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "a_warfare:block/felix_memorial"
+    },
+    "facing=south": {
+      "model": "a_warfare:block/felix_memorial",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "a_warfare:block/felix_memorial",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "a_warfare:block/felix_memorial",
+      "y": 90
+    },
+    "facing=up": {
+      "model": "a_warfare:block/felix_memorial",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "a_warfare:block/felix_memorial",
+      "x": 90
+    }
+  }
+}

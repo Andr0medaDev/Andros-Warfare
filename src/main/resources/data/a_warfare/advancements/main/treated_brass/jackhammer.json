@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass/gale",
+  "criteria": {
+    "jackhammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:jackhammer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.jackhammer.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:jackhammer"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.jackhammer"
+    }
+  },
+  "requirements": [
+    [
+      "jackhammer"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

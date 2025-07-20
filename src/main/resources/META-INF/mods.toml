@@ -3,44 +3,44 @@ loaderVersion="[40,)"
 license="GNU GPLv3"
 
 [[mods]]
-modId="scguns"
-version="0.3.4.0"
-displayName="Scorched Guns"
-authors="ribs"
-credits="MrCrayfish, Ribs"
-description="SCORCHED GUNSSSSS"
+modId="a_warfare"
+version="0.0.1"
+displayName="Andro's Warfare"
+authors="Andro"
+credits="MrCrayfish, Ribs, MigaMi, NineZero"
+description="A Minecraft Mod centered arounding implementing Survival Friendly Guns!"
 
-[[dependencies.scguns]]
+[[dependencies.a_warfare]]
     modId="forge"
     mandatory=true
     versionRange="[46, 48)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.scguns]]
+[[dependencies.a_warfare]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20, 1.20.2)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.scguns]]
+[[dependencies.a_warfare]]
     modId="framework"
     mandatory=true
     versionRange="[0.6.16,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.scguns]]
+[[dependencies.a_warfare]]
     modId="controllable"
     mandatory=false
     versionRange="[0.16.3,)"
     ordering="AFTER"
     side="CLIENT"
-[[dependencies.scguns]]
+[[dependencies.a_warfare]]
     modId="backpacked"
     mandatory=false
     versionRange="[2.1.9,)"
     ordering="AFTER"
     side="CLIENT"
-[[dependencies.scguns]]
+[[dependencies.a_warfare]]
 modId="curios"
 mandatory=true
 versionRange="[5.9.1,)"

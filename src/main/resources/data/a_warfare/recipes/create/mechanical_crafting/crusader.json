@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "item": "a_warfare:enchanted_bandage"
+    },
+    "L": {
+      "item": "minecraft:crossbow"
+    },
+    "R": {
+      "item": "a_warfare:gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "X": {
+      "item": "a_warfare:gun_magazine"
+    },
+    "V": {
+      "item": "a_warfare:iron_gun_frame"
+    },
+    "P": {
+      "item": "a_warfare:iron_blueprint"
+    },
+    "K": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "CVP ",
+    "LRKS",
+    "Q X "
+  ],
+  "result": {
+    "item": "a_warfare:crusader"
+  }
+}

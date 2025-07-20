@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "a_warfare:plasma"
+    },
+    "X": {
+      "item": "a_warfare:anthralite_nugget"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "result": {
+    "item": "a_warfare:plasma_lantern"
+  }
+}

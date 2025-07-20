@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/niter_dust",
+  "criteria": {
+    "cryoniter": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:cryoniter"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.cryoniter.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:cryoniter"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.cryoniter"
+    }
+  },
+  "requirements": [
+    [
+      "cryoniter"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

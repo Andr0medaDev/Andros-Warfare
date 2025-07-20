@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/ocean/bomb_lance",
+  "criteria": {
+    "sequoia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:sequoia"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.sequoia.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:sequoia"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.sequoia"
+    }
+  },
+  "requirements": [
+    [
+      "sequoia"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

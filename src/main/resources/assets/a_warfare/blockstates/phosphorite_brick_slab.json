@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "a_warfare:block/phosphorite_brick_slab"
+    },
+    "type=double": {
+      "model": "a_warfare:block/phosphorite_bricks"
+    },
+    "type=top": {
+      "model": "a_warfare:block/phosphorite_brick_slab_top"
+    }
+  }
+}

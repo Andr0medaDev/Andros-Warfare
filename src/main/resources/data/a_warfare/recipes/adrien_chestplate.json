@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "a_warfare:treated_iron_ingot"
+    },"S": {
+      "item": "minecraft:leather"
+    },
+    "M": {
+      "item": "a_warfare:anthralite_nugget"
+    }
+  },
+  "pattern": [
+    "X X",
+    "SXS",
+    "MXM"
+  ],
+  "result": {
+    "item": "a_warfare:adrien_chestplate"
+  }
+}

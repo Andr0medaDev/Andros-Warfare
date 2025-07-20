@@ -1,0 +1,40 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "a_warfare:echoes_2"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "a_warfare:diamond_steel_ingot",
+        "count": 2
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:firing_unit"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:sculk_sensor"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:gun_barrel"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:gun_magazine"
+    }
+  ]
+}

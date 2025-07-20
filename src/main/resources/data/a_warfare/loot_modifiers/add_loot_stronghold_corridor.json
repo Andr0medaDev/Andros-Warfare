@@ -1,0 +1,11 @@
+{
+  "type": "a_warfare:add_loot_table",
+  "conditions":
+  [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/stronghold_corridor"
+    }
+  ],
+  "lootTable": "a_warfare:chests/a_warfare_stronghold_corridor"
+}

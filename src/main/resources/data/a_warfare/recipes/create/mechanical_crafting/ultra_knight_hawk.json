@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "I": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "X": {
+      "item": "a_warfare:treated_iron_ingot"
+    },
+    "O": {
+      "item": "a_warfare:iron_blueprint"
+    }
+  },
+  "pattern": [
+    "XIRO",
+    "LRSS",
+    "Q   "
+  ],
+  "result": {
+    "item": "a_warfare:ultra_knight_hawk"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    [
+      {
+        "item": "a_warfare:raw_anthralite"
+      },
+      {
+        "item": "a_warfare:anthralite_ingot"
+      }
+    ],
+    {
+      "item": "minecraft:diamond"
+    },
+    [
+      {
+        "item": "a_warfare:treated_iron_blend"
+      },
+      {
+        "item": "a_warfare:treated_iron_ingot"
+      }
+    ],
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "results": [
+    {
+      "count": 5,
+      "item": "a_warfare:diamond_steel_ingot"
+    },
+    {
+      "chance": 0.1,
+      "item": "a_warfare:diamond_steel_ingot"
+    }
+  ]
+}

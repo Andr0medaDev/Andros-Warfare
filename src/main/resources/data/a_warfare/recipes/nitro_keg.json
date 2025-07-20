@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "a_warfare:powder_keg"
+    },
+    {
+      "item": "a_warfare:nitro_buckshot"
+    },
+    {
+      "item": "a_warfare:nitro_buckshot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "a_warfare:nitro_keg"
+  }
+}

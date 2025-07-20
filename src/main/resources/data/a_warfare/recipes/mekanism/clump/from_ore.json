@@ -1,0 +1,12 @@
+{"type":"mekanism:purifying","chemicalInput":{"amount":1,"gas":"mekanism:oxygen"},"itemInput":{
+  "ingredient":
+[
+  {
+    "item": "a_warfare:anthralite_ore"
+  },
+  {
+    "item": "a_warfare:deepslate_anthralite_ore"
+  }
+]
+  },
+  "output":{"count":3,"item":"a_warfare:clump_anthralite"}}

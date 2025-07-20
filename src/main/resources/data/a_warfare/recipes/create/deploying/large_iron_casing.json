@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "a_warfare:large_casing_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "a_warfare:large_iron_casing",
+      "count": 5
+    }
+  ]
+}

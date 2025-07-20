@@ -1,0 +1,74 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.3,
+      "yOffset": 4.5,
+      "zOffset": -8.0,
+      "textureLocation": "muzzle_flash_1"
+    }
+  },
+  "general": {
+    "alwaysSpread": false,
+    "fireMode": "a_warfare:semi_automatic",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "rate": 3,
+    "recoilAngle": 6.7,
+    "recoilKick": 2.22,
+    "spread": 2.5,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 100,
+    "criticalChance": 0.05,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.2
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "size": 0.7,
+        "yOffset": 5.8,
+        "zOffset":4.6
+      },
+      "stock": {
+        "scale": 0.0
+      },
+      "underBarrel": {
+        "yOffset": 5.5,
+        "zOffset": -2.5
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 5.9,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 12.0,
+    "ejectsCasing": true,
+    "gravity": false,
+    "item": "a_warfare:rocket",
+    "ejectDuringReload": true,
+    "casingType": "a_warfare:large_iron_casing",
+    "casingParticle": "a_warfare:iron_casing",
+    "life": 55,
+    "size": 0.05,
+    "speed": 4.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 30,
+    "maxAmmo": 1,
+    "reloadItem": "a_warfare:rocket",
+    "reloadTimer": 40,
+    "reloadType": "a_warfare:mag_fed"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.rocket_rifle.fire",
+    "fire": "a_warfare:item.rocket_rifle.fire",
+    "reload": "a_warfare:item.gauss.reload"
+  }
+}

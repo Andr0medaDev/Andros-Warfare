@@ -1,0 +1,19 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 300,
+  "ingredients": [
+    {
+      "item": "a_warfare:empty_core"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "a_warfare:charged_amethyst_shard"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:energy_core",
+    "count": 1
+  }
+}

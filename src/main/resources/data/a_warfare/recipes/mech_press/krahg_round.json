@@ -1,0 +1,19 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 20,
+  "ingredients": [
+    {
+      "item": "a_warfare:large_brass_casing"
+    },
+    {
+      "item": "a_warfare:nitro_powder_dust"
+    },
+    {
+      "tag": "a_warfare:advanced_bullet_tips"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:krahg_round",
+    "count": 1
+  }
+}

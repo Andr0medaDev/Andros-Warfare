@@ -1,0 +1,68 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": 5.0,
+      "zOffset": -11.5,
+      "textureLocation": "muzzle_flash_7"
+    }
+  },
+  "general": {
+    "alwaysSpread": true,
+    "fireMode": "a_warfare:automatic",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "rate": 5,
+    "projectileAmount": 6,
+    "recoilAngle": 3.0,
+    "recoilKick": 1.5,
+    "spread": 3.0,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 10,
+    "criticalChance": 0.05
+  },
+  "modules": {
+    "attachments": {
+
+      "stock": {
+        "scale": 0.0
+      },
+      "underBarrel": {
+        "yOffset": 5.5,
+        "zOffset": -2.5
+      }
+
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.6,
+      "zOffset": -1.0
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:water",
+    "damage":23.0,
+    "ejectsCasing": true,
+    "gravity": false,
+    "item": "a_warfare:shock_cell",
+    "casingType": "a_warfare:empty_cell",
+    "life": 40,
+    "size": 0.05,
+    "speed": 8.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 23,
+    "reloadTimer": 30,
+    "reloadType": "a_warfare:mag_fed"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.makeshift_rifle.cock",
+    "enchantedFire": "a_warfare:item.shock.fire",
+    "fire": "a_warfare:item.shock.fire",
+    "reload": "a_warfare:item.gauss.reload",
+    "silencedFire": "a_warfare:item.shock.silenced_fire"
+  }
+}

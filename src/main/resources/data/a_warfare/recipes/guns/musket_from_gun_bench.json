@@ -1,0 +1,28 @@
+{
+  "type": "a_warfare:gun_bench",
+  "result": {
+    "item": "a_warfare:musket",
+    "count": 1
+  },
+  "ingredients": {
+
+    "gun_internal_1": {
+      "item": "minecraft:flint"
+    },
+    "gun_internal_2": {
+      "item": "minecraft:smooth_stone"
+    },
+    "gun_barrel_2": {
+      "item": "a_warfare:stone_gun_barrel"
+    },
+    "gun_barrel_1": {
+      "item": "a_warfare:stone_gun_barrel"
+    },
+    "gun_grip": {
+      "item": "a_warfare:gun_grip"
+    },
+    "gun_magazine": {
+      "tag": "minecraft:planks"
+    }
+  }
+}

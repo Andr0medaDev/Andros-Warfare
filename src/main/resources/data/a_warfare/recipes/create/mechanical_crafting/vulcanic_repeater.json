@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "P": {
+      "item": "a_warfare:vehement_coal"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "G": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "C": {
+      "item": "a_warfare:gun_magazine"
+    },
+    "I": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "B": {
+      "item": "minecraft:crimson_planks"
+    },
+    "A": {
+      "item": "a_warfare:piglin_blueprint"
+    },
+    "J": {
+      "item": "a_warfare:firing_unit"
+    }
+  },
+  "pattern": [
+    "JICA",
+    "PGBS",
+    "Q B "
+  ],
+  "result": {
+    "item": "a_warfare:vulcanic_repeater"
+  }
+}

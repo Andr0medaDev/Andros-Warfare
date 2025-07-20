@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:advanced_round",
+    "a_warfare:standard_copper_round",
+    "a_warfare:gibbs_round",
+    "a_warfare:krahg_round"
+  ]
+}

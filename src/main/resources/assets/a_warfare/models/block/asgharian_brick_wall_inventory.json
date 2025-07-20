@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "a_warfare:block/asgharian_bricks"
+  }
+}

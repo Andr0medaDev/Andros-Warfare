@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/craft_gun_bench",
+  "criteria": {
+    "flintlock_pistol": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:flintlock_pistol"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.flintlock_pistol.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:flintlock_pistol"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.flintlock_pistol"
+    }
+  },
+  "requirements": [
+    [
+      "flintlock_pistol"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

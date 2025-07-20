@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "a_warfare:block/basic_turret_base" },
+    "facing=south": { "model": "a_warfare:block/basic_turret_base", "y": 180 },
+    "facing=west": { "model": "a_warfare:block/basic_turret_base", "y": 270 },
+    "facing=east": { "model": "a_warfare:block/basic_turret_base", "y": 90 }
+  }
+}

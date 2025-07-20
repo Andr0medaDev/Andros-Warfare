@@ -1,0 +1,14 @@
+{
+  "type": "a_warfare:lightning_battery",
+  "processingTime": 50,
+  "requiredEnergy": 3200,
+  "ingredients": [
+    {
+      "item": "a_warfare:empty_cell"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "a_warfare:shock_cell"
+  }
+}

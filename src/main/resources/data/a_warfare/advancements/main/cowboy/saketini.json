@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/cowboy/callwell",
+  "criteria": {
+    "saketini": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:saketini"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.saketini.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:saketini"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.saketini"
+    }
+  },
+  "requirements": [
+    [
+      "saketini"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

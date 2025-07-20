@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/iron/iron_javelin",
+  "criteria": {
+    "iron_spear": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:iron_spear"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.iron_spear.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:iron_spear"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.iron_spear"
+    }
+  },
+  "requirements": [
+    [
+      "iron_spear"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

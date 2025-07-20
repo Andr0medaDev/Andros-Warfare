@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "a_warfare:anthralite_pickaxe"
+    },
+    {
+      "item": "a_warfare:anthralite_shovel"
+    },
+    {
+      "item": "a_warfare:anthralite_axe"
+    },
+    {
+      "item": "a_warfare:anthralite_hoe"
+    },
+    {
+      "item": "a_warfare:anthralite_sword"
+    },
+    {
+      "item": "a_warfare:anthralite_helmet"
+    },
+    {
+      "item": "a_warfare:anthralite_chestplate"
+    },
+    {
+      "item": "a_warfare:anthralite_leggings"
+    },
+    {
+      "item": "a_warfare:anthralite_boots"
+    }
+  ],
+  "result": "a_warfare:anthralite_nugget"
+}

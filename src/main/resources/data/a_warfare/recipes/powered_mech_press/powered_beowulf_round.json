@@ -1,0 +1,20 @@
+{
+  "type": "a_warfare:powered_mechanical_pressing",
+  "processingTime": 15,
+  "energyUse": 500,
+  "ingredients": [
+    {
+      "item": "a_warfare:small_diamond_steel_casing"
+    },
+    {
+      "item": "a_warfare:nitro_powder_dust"
+    },
+    {
+      "tag": "a_warfare:advanced_bullet_tips"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:beowulf_round",
+    "count": 1
+  }
+}

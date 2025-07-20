@@ -1,0 +1,68 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.2,
+      "yOffset": 5.1,
+      "zOffset": -4.0,
+      "textureLocation": "muzzle_flash_1"
+    }
+  },
+  "general": {
+    "alwaysSpread": false,
+    "fireMode": "a_warfare:automatic",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "projectileAmount": 1,
+    "rate": 8,
+    "recoilAngle": 3.0,
+    "recoilKick": 2.0,
+    "spread": 3.0,
+    "meleeDamage": 3.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 16,
+    "criticalChance": 0.05
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "size": 0.7,
+        "yOffset": 6.6,
+        "zOffset": 4.5
+      },
+      "stock": {
+        "scale": 0.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 7.0,
+      "zOffset": 1.75
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 10.0,
+    "ejectsCasing": true,
+    "gravity": false,
+    "item": "a_warfare:shulkshot",
+    "casingType": "a_warfare:shulker_casing",
+    "casingParticle": "a_warfare:shulk_casing",
+    "life": 120,
+    "size": 0.00001,
+    "speed":  0.5,
+    "trailLengthMultiplier": 100.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 15,
+    "reloadItem": "a_warfare:shulkshot",
+    "reloadTimer": 30,
+    "reloadType": "a_warfare:mag_fed"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.shulker.fire",
+    "fire": "a_warfare:item.shulker.fire",
+    "reload": "a_warfare:item.gauss.reload"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/iron/brawler",
+  "criteria": {
+    "rocket_rifle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:rocket_rifle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.rocket_rifle.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:rocket_rifle"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.rocket_rifle"
+    }
+  },
+  "requirements": [
+    [
+      "rocket_rifle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/piglin_blueprint",
+  "criteria": {
+    "blasphemy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:blasphemy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.blasphemy.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:blasphemy"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.blasphemy"
+    }
+  },
+  "requirements": [
+    [
+      "blasphemy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

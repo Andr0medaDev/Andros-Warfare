@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:gunpowder"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "a_warfare:buckshot"
+    }
+  ]
+}

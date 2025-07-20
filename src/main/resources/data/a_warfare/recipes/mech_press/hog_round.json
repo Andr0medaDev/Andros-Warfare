@@ -1,0 +1,19 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 20,
+  "ingredients": [
+    {
+      "item": "a_warfare:small_iron_casing"
+    },
+    {
+      "item": "a_warfare:sheol"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:hog_round",
+    "count": 1
+  }
+}

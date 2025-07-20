@@ -1,7 +1,7 @@
 {
   "values": [
-    "scguns:music_disc_mass_production",
-    "scguns:music_disc_mass_destruction",
-    "scguns:music_disc_mass_destruction_extended"
+    "a_warfare:music_disc_mass_production",
+    "a_warfare:music_disc_mass_destruction",
+    "a_warfare:music_disc_mass_destruction_extended"
   ]
 }

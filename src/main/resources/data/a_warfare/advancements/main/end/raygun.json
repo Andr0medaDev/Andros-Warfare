@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/end/lone_wonder",
+  "criteria": {
+    "raygun": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:raygun"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.raygun.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:raygun"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.raygun"
+    }
+  },
+  "requirements": [
+    [
+      "raygun"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

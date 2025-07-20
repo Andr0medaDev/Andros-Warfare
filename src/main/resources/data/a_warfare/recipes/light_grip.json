@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "throwable",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
+    },
+    "Q": {
+      "item": "a_warfare:anthralite_nugget"
+    }
+  },
+  "pattern": [
+    "   ",
+    "QXQ",
+    " # "
+  ],
+  "result": {
+    "item": "a_warfare:light_grip"
+  }
+}

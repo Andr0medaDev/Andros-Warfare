@@ -1,0 +1,14 @@
+{
+  "type": "create_new_age:energising",
+  "energy_needed": 1200,
+  "ingredients": [
+    {
+      "item": "a_warfare:empty_cell"
+    }
+  ],
+  "results": [
+    {
+      "item": "a_warfare:shock_cell"
+    }
+  ]
+}

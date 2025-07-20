@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:rocket_rifle",
+    "a_warfare:gyrojet_pistol",
+    "a_warfare:mk43_rifle",
+    "a_warfare:dozier_rl",
+    "a_warfare:shellurker",
+    "a_warfare:carapice"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "a_warfare:sheol"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:rocket"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_rocket"
+        },
+        [
+          {
+            "item": "a_warfare:large_iron_casing"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_rocket"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_rocket"
+        },
+        [
+          {
+            "tag": "a_warfare:advanced_bullet_tips"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_rocket"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_rocket"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_rocket"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_rocket"
+  }
+}

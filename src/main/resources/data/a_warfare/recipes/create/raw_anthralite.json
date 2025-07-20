@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "a_warfare:raw_anthralite"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "a_warfare:crushed_raw_anthralite"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

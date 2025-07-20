@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:pyroclastic_flow",
+    "a_warfare:flintlock_pistol",
+    "a_warfare:handcannon",
+    "a_warfare:musket",
+    "a_warfare:blunderbuss",
+    "a_warfare:spitfire",
+    "a_warfare:blasphemy",
+    "a_warfare:cr4k_mining_laser",
+    "a_warfare:shard_culler",
+    "a_warfare:flayed_god",
+    "a_warfare:waltz_conversion",
+    "a_warfare:laser_musket",
+    "a_warfare:nervepinch",
+    "a_warfare:venturi",
+    "a_warfare:umax_pistol",
+    "a_warfare:gale",
+    "a_warfare:scratches",
+    "a_warfare:niami"
+  ]
+}

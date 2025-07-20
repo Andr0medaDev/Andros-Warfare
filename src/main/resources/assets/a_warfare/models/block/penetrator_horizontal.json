@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "particle": "a_warfare:block/penetrator_side",
+    "down": "a_warfare:block/penetrator_bottom",
+    "up": "a_warfare:block/penetrator_top",
+    "side": "a_warfare:block/penetrator_side"
+  }
+}

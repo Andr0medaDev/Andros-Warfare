@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:flintlock_pistol",
+    "a_warfare:handcannon",
+    "a_warfare:musket",
+    "a_warfare:blunderbuss",
+    "a_warfare:rocket_rifle",
+    "a_warfare:bomb_lance",
+    "a_warfare:brawler",
+    "a_warfare:saketini",
+    "a_warfare:big_bore"
+  ]
+}

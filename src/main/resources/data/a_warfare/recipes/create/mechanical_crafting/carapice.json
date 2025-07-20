@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "item": "a_warfare:diamond_steel_gun_frame"
+    },
+    "L": {
+      "item": "a_warfare:rapid_firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "X": {
+      "item": "minecraft:shulker_shell"
+    },
+    "P": {
+      "item": "a_warfare:end_blueprint"
+    }
+  },
+  "pattern": [
+    "CCX ",
+    "LRS ",
+    "Q XP"
+  ],
+  "result": {
+    "item": "a_warfare:carapice"
+  }
+}

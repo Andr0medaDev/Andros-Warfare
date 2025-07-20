@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:gold_nugget"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:hog_round"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_hog_round"
+        },
+        [
+          {
+            "item": "a_warfare:sheol"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_hog_round"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_hog_round"
+        },
+        [
+          {
+            "item": "a_warfare:small_iron_casing"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_hog_round"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_hog_round"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_hog_round"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_hog_round"
+  }
+}

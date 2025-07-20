@@ -1,0 +1,33 @@
+{
+  "type": "a_warfare:gun_bench",
+  "result": {
+    "item": "a_warfare:newborn_cyst",
+    "count": 1
+  },
+  "ingredients": {
+    "blueprint": {
+      "item": "a_warfare:scorched_blueprint"
+    },
+    "gun_internal_1": {
+      "item": "a_warfare:firing_unit"
+    },
+    "gun_internal_2": {
+      "item": "a_warfare:gun_magazine"
+    },
+    "gun_top_internal_2": {
+      "item": "a_warfare:scorched_ingot"
+    },
+    "gun_top_internal_1": {
+      "item": "a_warfare:scorched_gun_frame"
+    },
+    "gun_barrel_1": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "gun_grip": {
+      "item": "a_warfare:gun_grip"
+    },
+    "gun_magazine": {
+      "item": "a_warfare:heavy_gun_parts"
+    }
+  }
+}

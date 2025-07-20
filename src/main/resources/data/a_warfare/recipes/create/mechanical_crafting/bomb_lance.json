@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "a_warfare:iron_gun_frame"
+    },
+    "R": {
+      "item": "a_warfare:iron_bayonet"
+    },
+    "P": {
+      "item": "a_warfare:ocean_blueprint"
+    },
+    "K": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "O": {
+      "item": "a_warfare:firing_unit"
+    }
+  },
+  "pattern": [
+    "PXRR",
+    "XQOK",
+    "Q R "
+  ],
+  "result": {
+    "item": "a_warfare:bomb_lance"
+  }
+}

@@ -1,21 +1,21 @@
 {
   "values": [
-    "scguns:niter_glass",
-    "scguns:white_niter_glass",
-    "scguns:orange_niter_glass",
-    "scguns:magenta_niter_glass",
-    "scguns:light_blue_niter_glass",
-    "scguns:yellow_niter_glass",
-    "scguns:lime_niter_glass",
-    "scguns:pink_niter_glass",
-    "scguns:gray_niter_glass",
-    "scguns:light_gray_niter_glass",
-    "scguns:cyan_niter_glass",
-    "scguns:purple_niter_glass",
-    "scguns:blue_niter_glass",
-    "scguns:brown_niter_glass",
-    "scguns:green_niter_glass",
-    "scguns:red_niter_glass",
-    "scguns:black_niter_glass"
+    "a_warfare:niter_glass",
+    "a_warfare:white_niter_glass",
+    "a_warfare:orange_niter_glass",
+    "a_warfare:magenta_niter_glass",
+    "a_warfare:light_blue_niter_glass",
+    "a_warfare:yellow_niter_glass",
+    "a_warfare:lime_niter_glass",
+    "a_warfare:pink_niter_glass",
+    "a_warfare:gray_niter_glass",
+    "a_warfare:light_gray_niter_glass",
+    "a_warfare:cyan_niter_glass",
+    "a_warfare:purple_niter_glass",
+    "a_warfare:blue_niter_glass",
+    "a_warfare:brown_niter_glass",
+    "a_warfare:green_niter_glass",
+    "a_warfare:red_niter_glass",
+    "a_warfare:black_niter_glass"
   ]
 }

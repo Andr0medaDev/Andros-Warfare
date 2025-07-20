@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:slime",
+    "minecraft:creeper",
+    "minecraft:phantom",
+    "a_warfare:hive",
+    "a_warfare:swarm",
+    "minecraft:zombified_piglin",
+    "a_warfare:zombified_hornlin"
+  ]
+}

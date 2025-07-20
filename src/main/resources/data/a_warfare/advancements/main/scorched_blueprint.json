@@ -1,0 +1,41 @@
+{
+  "parent": "a_warfare:main/end_blueprint",
+  "criteria": {
+    "scorched_blueprint": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:scorched_blueprint"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.scorched_blueprint.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:scorched_blueprint"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.scorched_blueprint"
+    }
+  },
+  "requirements": [
+    [
+      "scorched_blueprint"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

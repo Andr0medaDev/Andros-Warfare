@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass_blueprint",
+  "criteria": {
+    "m22_waltz": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:m22_waltz"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.m22_waltz.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:m22_waltz"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.m22_waltz"
+    }
+  },
+  "requirements": [
+    [
+      "m22_waltz"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/end/carapice",
+  "criteria": {
+    "shellurker": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:shellurker"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.shellurker.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:shellurker"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.shellurker"
+    }
+  },
+  "requirements": [
+    [
+      "shellurker"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

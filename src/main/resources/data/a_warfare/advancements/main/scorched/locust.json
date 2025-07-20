@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/scorched/rat_king_and_queen",
+  "criteria": {
+    "locust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:locust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.locust.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:locust"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.locust"
+    }
+  },
+  "requirements": [
+    [
+      "locust"
+    ]
+  ],
+  "sscorcheds_telemetry_event": true
+}

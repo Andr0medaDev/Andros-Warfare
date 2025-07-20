@@ -1,0 +1,13 @@
+{
+	"type":"createaddition:charging",
+	"input": {
+      	"item": "a_warfare:empty_cell",
+		"count": 1
+	},
+	"result": {
+		"item": "a_warfare:shock_cell",
+		"count": 1
+	},
+	"energy": 1600,
+	"maxChargeRate": 200
+}

@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    [
+      {
+        "item": "a_warfare:sulfur_chunk"
+      },
+      {
+        "item": "a_warfare:sulfur_dust"
+      }
+    ],
+    {
+      "item": "a_warfare:niter_dust"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}

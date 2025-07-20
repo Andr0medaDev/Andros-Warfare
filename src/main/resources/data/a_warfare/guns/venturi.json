@@ -1,0 +1,62 @@
+{
+  "display": {
+  },
+  "general": {
+    "alwaysSpread": true,
+    "fireMode": "a_warfare:pulse",
+    "fireTimer": 25,
+    "gripType": "a_warfare:two_handed_shotgun",
+    "baseGripType": "a_warfare:two_handed_shotgun",
+    "projectileAmount": 6,
+    "rate": 9,
+    "recoilAngle": 1.5,
+    "recoilKick": 1.0,
+    "spread": 6.5,
+    "meleeDamage": 3.5,
+    "meleeCooldownTicks": 20,
+    "energyUse": 30.0,
+    "hotBarrelRate": 40,
+    "criticalChance": 0.05
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "size": 0.8,
+        "yOffset": 5.7,
+        "zOffset": 5.2
+      },
+      "stock": {
+        "scale": 0.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.1,
+      "zOffset": 1.0
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 15.0,
+    "ejectsCasing": false,
+    "gravity": false,
+    "item": "a_warfare:buckshot",
+    "life": 50,
+    "size": 1.0,
+    "speed": 4.0,
+    "trailLengthMultiplier": 0.2
+  },
+  "reloads": {
+    "emptyMagTimer": 30,
+    "maxAmmo": 5,
+    "reloadItem": "a_warfare:buckshot",
+    "reloadTimer": 15,
+    "reloadType": "a_warfare:manual"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.airgun.fire",
+    "fire": "a_warfare:item.airgun.fire",
+    "reload": "a_warfare:item.gauss.reload"
+  }
+}

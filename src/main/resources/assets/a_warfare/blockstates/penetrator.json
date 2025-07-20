@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "a_warfare:block/penetrator",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "a_warfare:block/penetrator",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "a_warfare:block/penetrator",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "a_warfare:block/penetrator",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "a_warfare:block/penetrator"
+    },
+    "facing=west": {
+      "model": "a_warfare:block/penetrator",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

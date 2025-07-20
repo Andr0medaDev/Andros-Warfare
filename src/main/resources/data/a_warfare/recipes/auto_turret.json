@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "X": {
+      "item": "a_warfare:greaser_smg"
+    },
+    "L": {
+      "item": "a_warfare:treated_iron_ingot"
+    },
+    "R": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "M": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "Q": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    " X ",
+    "LRL",
+    "MQM"
+  ],
+  "result": {
+    "item": "a_warfare:auto_turret",
+    "count": 1
+  }
+}

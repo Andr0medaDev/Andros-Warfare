@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:gun_magazine"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "I": {
+      "item": "a_warfare:gun_parts"
+    },
+    "X": {
+      "item": "a_warfare:treated_iron_ingot"
+    },
+    "M": {
+      "item": "a_warfare:iron_blueprint"
+    }
+  },
+  "pattern": [
+    "XIM",
+    "LRS",
+    "Q C"
+  ],
+  "result": {
+    "item": "a_warfare:trenchur"
+  }
+}

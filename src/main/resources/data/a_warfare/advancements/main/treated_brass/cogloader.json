@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass/osgood_50",
+  "criteria": {
+    "cogloader": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:cogloader"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.cogloader.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:cogloader"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.cogloader"
+    }
+  },
+  "requirements": [
+    [
+      "cogloader"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

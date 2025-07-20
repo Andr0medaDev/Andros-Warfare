@@ -1,0 +1,565 @@
+{
+  "item.lever.lever": {
+    "subtitle": "subtitle.a_warfare.mag_in",
+    "sounds": [
+      {
+        "name": "a_warfare:item/lever/lever"
+      }
+    ]
+  },
+  "item.gun_sounds.metal": {
+    "subtitle": "subtitle.a_warfare.mag_in",
+    "sounds": [
+      {
+        "name": "a_warfare:item/gun_sounds/metal"
+      }
+    ]
+  },
+  "item.mag_in.mag_in": {
+    "subtitle": "subtitle.a_warfare.mag_in",
+    "sounds": [
+      {
+        "name": "a_warfare:item/mag_in/mag_in"
+      }
+    ]
+  },
+    "item.mag_out.mag_out": {
+        "subtitle": "subtitle.a_warfare.mag_out",
+        "sounds": [
+        {
+            "name": "a_warfare:item/mag_out/mag_out"
+        }
+        ]
+    },
+    "item.reload_end.reload_end": {
+        "subtitle": "subtitle.a_warfare.reload_end",
+        "sounds": [
+        {
+            "name": "a_warfare:item/reload_end/reload_end"
+        }
+        ]
+    },
+  "item.gun_rustle.gun_rustle": {
+    "subtitle": "subtitle.a_warfare.gun_rustle",
+    "sounds": [
+      {
+        "name": "a_warfare:item/gun_rustle/gun_rustle"
+      }
+    ]
+  },
+  "item.bolt_pull.bolt_pull": {
+    "subtitle": "subtitle.a_warfare.bolt_pull",
+    "sounds": [
+      {
+        "name": "a_warfare:item/bolt_pull/bolt_pull"
+      }
+    ]
+  },
+  "item.bolt_release.bolt_release": {
+    "subtitle": "subtitle.a_warfare.bolt_release",
+    "sounds": [
+      {
+        "name": "a_warfare:item/bolt_release/bolt_release"
+      }
+    ]
+  },
+  "item.bolt.bolt": {
+    "subtitle": "subtitle.a_warfare.bolt",
+    "sounds": [
+      {
+        "name": "a_warfare:item/bolt/bolt"
+      }
+    ]
+  },
+  "item.rack.rack": {
+    "subtitle": "subtitle.a_warfare.rack",
+    "sounds": [
+      {
+        "name": "a_warfare:item/rack/rack"
+      }
+    ]
+  },
+  "item.rusty_gnat.copper_jam": {
+    "subtitle": "subtitle.a_warfare.jam",
+    "sounds": [
+      {
+        "name": "a_warfare:item/rusty_gnat/copper_jam"
+      }
+    ]
+  },
+  "item.ping.ping": {
+    "subtitle": "subtitle.a_warfare.ping",
+    "sounds": [
+      {
+        "name": "a_warfare:item/ping/ping"
+      }
+    ]
+  },
+  "item.wither.wither": {
+    "subtitle": "subtitle.a_warfare.wither",
+    "sounds": [
+      {
+        "name": "a_warfare:item/wither/wither"
+      }
+    ]
+  },
+  "item.airgun.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/airgun/fire"
+      }
+    ]
+  },
+  "item.cowboy.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/cowboy/fire"
+      }
+    ]
+  },
+  "mass_production": {
+    "sounds": [
+      {
+        "name": "a_warfare:mass_production",
+        "stream": true
+      }
+    ]
+  },
+  "mass_destruction": {
+    "sounds": [
+      {
+        "name": "a_warfare:mass_destruction",
+        "stream": true
+      }
+    ]
+  },
+  "mass_destruction_extended": {
+    "sounds": [
+      {
+        "name": "a_warfare:mass_destruction_extended",
+        "stream": true
+      }
+    ]
+  },
+  "item.sculk.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/sculk/fire"
+      }
+    ]
+  },
+  "item.shulker.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/shulker/fire"
+      }
+    ]
+  },
+  "item.rusty_gnat.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/rusty_gnat/fire"
+      }
+    ]
+  },
+  "item.scorched_sniper.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/scorched_sniper/fire"
+      }
+    ]
+  },
+  "item.shock.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/shock/fire"
+      }
+    ]
+  },
+    "item.scorched_rifle.fire": {
+        "subtitle": "subtitle.a_warfare.fire",
+        "sounds": [
+        {
+            "name": "a_warfare:item/scorched_rifle/fire"
+        }
+        ]
+    },
+  "item.rusty_gnat.silenced_fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/rusty_gnat/silenced_fire"
+      }
+    ]
+  },
+
+  "item.boomstick.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/boomstick/fire"
+      }
+    ]
+  },
+  "item.boomstick.silenced_fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/boomstick/silenced_fire"
+      }
+    ]
+  },
+
+  "item.makeshift_rifle.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/makeshift_rifle/fire"
+      }
+    ]
+  },
+  "item.makeshift_rifle.silenced_fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/makeshift_rifle/silenced_fire"
+      }
+    ]
+  },
+
+
+  "item.makeshift_rifle.cock": {
+    "subtitle": "subtitle.a_warfare.cock",
+    "sounds": [
+      {
+        "name": "a_warfare:item/makeshift_rifle/cock"
+      }
+    ]
+  },
+  "item.bruiser.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/bruiser/fire"
+      }
+    ]
+  },
+  "item.bruiser.silenced_fire": {
+    "subtitle": "subtitle.a_warfare.silenced_fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/bruiser/silenced_fire"
+      }
+    ]
+  },
+  "item.rocket.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/rocket/fire"
+      }
+    ]
+  },
+  "item.rocket_rifle.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/rocket_rifle/fire"
+      }
+    ]
+  },
+  "item.brass_revolver.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/brass_revolver/fire"
+      }
+    ]
+  },
+  "item.iron_pistol.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/iron_pistol/fire"
+      }
+    ]
+  },
+  "item.scrapper.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/scrapper/fire"
+      }
+    ]
+  },
+  "item.greaser_smg.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/greaser_smg/fire"
+      }
+    ]
+  },
+  "item.gyrojet.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/gyrojet/fire"
+      }
+    ]
+  },
+  "item.iron_rifle.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/iron_rifle/fire"
+      }
+    ]
+  },
+
+  "item.blackpowder.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/blackpowder/fire"
+      }
+    ]
+  },
+
+  "item.plasma.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/plasma/fire"
+      }
+    ]
+  },
+  "item.raygun.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/raygun/fire"
+      }
+    ]
+  },
+
+  "item.flamethrower.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/flamethrower/fire"
+      }
+    ]
+  },
+  "item.flamethrower.fire_2": {
+    "subtitle": "subtitle.a_warfare.fire_2",
+    "sounds": [
+      {
+        "name": "a_warfare:item/flamethrower/fire_2"
+      }
+    ]
+  },
+  "item.flamethrower.pre_fire": {
+    "subtitle": "subtitle.a_warfare.pre_fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/flamethrower/pre_fire"
+      }
+    ]
+  },
+  "item.flamethrower.reload": {
+    "subtitle": "subtitle.a_warfare.reload",
+    "sounds": [
+      {
+        "name": "a_warfare:item/flamethrower/reload"
+      }
+    ]
+  },
+  "item.laser.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/laser/fire"
+      }
+    ]
+  },
+  "item.heavier_rifle.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/heavier_rifle/fire"
+      }
+    ]
+  },
+  "item.brass_shotgun.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/brass_shotgun/fire"
+      }
+    ]
+  },
+  "item.gauss.reload": {
+    "subtitle": "subtitle.a_warfare.reload",
+    "sounds": [
+      {
+        "name": "a_warfare:item/gauss/reload"
+      }
+    ]
+  },
+  "item.gauss.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/gauss/fire"
+      }
+    ]
+  },
+  "item.gauss.pre_fire": {
+    "subtitle": "subtitle.a_warfare.pre_fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/gauss/pre_fire"
+      }
+    ]
+  },
+  "item.brass_pistol.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/brass_pistol/fire"
+      }
+    ]
+  },
+  "item.heavy_rifle.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/heavy_rifle/fire"
+      }
+    ]
+  },
+  "item.combat_shotgun.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/combat_shotgun/fire"
+      }
+    ]
+  },
+  "item.combat_shotgun.silenced_fire": {
+    "subtitle": "subtitle.a_warfare.silenced_fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/combat_shotgun/silenced_fire"
+      }
+    ]
+  },
+  "item.pistol.silenced_fire": {
+    "subtitle": "subtitle.a_warfare.fire.silenced",
+    "sounds": [
+      {
+        "name": "a_warfare:item/pistol/silenced_fire"
+      }
+    ]
+  },
+  "item.pistol.enchanted_fire": {
+    "subtitle": "subtitle.a_warfare.fire.enchanted",
+    "sounds": [
+      {
+        "name": "a_warfare:item/pistol/enchanted_fire"
+      }
+    ]
+  },
+  "item.pistol.reload": {
+    "subtitle": "subtitle.a_warfare.reload",
+    "sounds": [
+      {
+        "name": "a_warfare:item/pistol/reload"
+      }
+    ]
+  },
+  "item.pistol.cock": {
+    "subtitle": "subtitle.a_warfare.cock",
+    "sounds": [
+      {
+        "name": "a_warfare:item/pistol/cock"
+      }
+    ]
+  },
+  "item.beam.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/beam/fire"
+      }
+    ]
+  },
+  "item.grenade_launcher.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/grenade_launcher/fire"
+      }
+    ]
+  },
+  "item.bazooka.fire": {
+    "subtitle": "subtitle.a_warfare.fire",
+    "sounds": [
+      {
+        "name": "a_warfare:item/bazooka/fire",
+        "stream": true
+      }
+    ]
+  },
+  "item.grenade.pin": {
+    "subtitle": "subtitle.a_warfare.grenade.pin",
+    "sounds": [
+      {
+        "name": "a_warfare:item/grenade/pin"
+      }
+    ]
+  },
+  "entity.stun_grenade.explosion": {
+    "subtitle": "subtitle.a_warfare.stun.explosion",
+    "sounds": [
+      {
+        "name": "a_warfare:entity/stun_grenade/explosion",
+        "stream": true
+      }
+    ]
+  },
+  "entity.stun_grenade.ring": {
+    "subtitle": "subtitle.a_warfare.stun.ring",
+    "sounds": [
+      {
+        "name": "a_warfare:entity/stun_grenade/ring",
+        "stream": true
+      }
+    ]
+  },
+
+  "ui.weapon.attach": {
+    "subtitle": "subtitle.a_warfare.attach",
+    "sounds": [
+      {
+        "name": "a_warfare:ui/weapon/attach"
+      }
+    ]
+  },
+  "bullet.flyby1": {
+    "subtitle": "subtitle.a_warfare.flyby",
+    "sounds": [
+      {
+        "name": "a_warfare:bullet/flyby1"
+      }
+    ]
+  }
+},

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "a_warfare:anthralite_nugget"
+    },
+    "X": {
+      "item": "a_warfare:copper_disc"
+    },
+    "M": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "pattern": [
+    "QXQ",
+    "QMQ",
+    "QQQ"
+  ],
+  "result": {
+    "item": "a_warfare:penetrator"
+  }
+}

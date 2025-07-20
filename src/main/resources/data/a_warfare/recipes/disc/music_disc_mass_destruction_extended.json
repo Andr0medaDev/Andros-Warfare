@@ -1,0 +1,17 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 400,
+  "ingredients": [
+    {
+      "item": "a_warfare:music_disc_mass_destruction"
+    },
+    {
+      "item": "a_warfare:netherite_scrap_chunk"
+    }
+
+  ],
+  "result": {
+    "item": "a_warfare:music_disc_mass_destruction_extended",
+    "count": 1
+  }
+}

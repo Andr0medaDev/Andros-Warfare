@@ -1,0 +1,14 @@
+{
+  "type": "a_warfare:powered_macerating",
+  "processingTime": 50,
+  "energyUse": 1000,
+  "ingredients": [
+    {
+      "item": "a_warfare:raw_phosphor"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:phosphor_dust",
+    "count": 3
+  }
+}

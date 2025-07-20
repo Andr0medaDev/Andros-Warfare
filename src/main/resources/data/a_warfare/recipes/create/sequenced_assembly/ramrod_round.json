@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "a_warfare:small_iron_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:ramrod_round"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_ramrod_round"
+        },
+        [
+          {
+            "item": "a_warfare:peal"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_ramrod_round"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_ramrod_round"
+        },
+        [
+          {
+            "tag": "a_warfare:advanced_bullet_tips"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_ramrod_round"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_ramrod_round"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_ramrod_round"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_ramrod_round"
+  }
+}

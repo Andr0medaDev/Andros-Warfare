@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    " Q ",
+    "Q Q",
+    "QQQ"
+  ],
+  "result": {
+    "item": "a_warfare:copper_gun_frame"
+  }
+}

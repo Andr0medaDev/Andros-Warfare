@@ -1,0 +1,16 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 50,
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "mold": {
+    "item": "a_warfare:small_casing_mold"
+  },
+  "result": {
+    "item": "a_warfare:small_iron_casing",
+    "count": 12
+  }
+}

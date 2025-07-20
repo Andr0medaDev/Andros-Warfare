@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/piglin/pyroclastic_flow",
+  "criteria": {
+    "freyr": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:freyr"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.freyr.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:freyr"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.freyr"
+    }
+  },
+  "requirements": [
+    [
+      "freyr"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

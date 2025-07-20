@@ -1,0 +1,84 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.2,
+      "yOffset": 5.2,
+      "zOffset": -20.0,
+      "textureLocation": "muzzle_flash_5",
+      "spawnParticles": true,
+      "particleType": "minecraft:small_flame",
+      "particleCount": 8,
+      "particleSpread": 0.25,
+      "particleRingRadius": 1.0
+    }
+  },
+  "general": {
+    "alwaysSpread": false,
+    "fireMode": "a_warfare:semi_automatic",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "rate": 24,
+    "recoilAngle": 6.0,
+    "recoilKick": 4.0,
+    "spread": 0.0,
+    "meleeDamage": 4.0,
+    "meleeCooldownTicks": 20,
+    "meleeReach": 4.5,
+    "hotBarrelRate": 37,
+    "criticalChance": 0.05,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.45
+  },
+  "modules": {
+    "attachments": {
+      "barrel": {
+        "yOffset": 4.6,
+        "zOffset": -21.0
+      },
+      "scope": {
+        "size": 0.7,
+        "yOffset": 6.5,
+        "zOffset": 5.0
+      },
+      "stock": {
+        "scale": 0.0
+      },
+      "magazine": {
+        "scale": 0.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.8,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:heavy",
+    "damage": 42.0,
+    "ejectsCasing": true,
+    "gravity": false  ,
+    "item": "a_warfare:krahg_round",
+    "casingType": "a_warfare:large_brass_casing",
+    "casingParticle": "a_warfare:brass_casing",
+    "life": 100,
+    "size": 0.1,
+    "speed": 14.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 7  ,
+    "reloadItem": "a_warfare:krahg_round",
+    "reloadTimer": 30,
+    "reloadType": "a_warfare:mag_fed"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.scorched_sniper.fire",
+    "fire": "a_warfare:item.scorched_sniper.fire",
+    "reload": "a_warfare:item.gauss.reload",
+    "silencedFire": "a_warfare:item.bruiser.silenced_fire",
+    "flyby": "a_warfare:bullet.flyby1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:gunpowder_dust",
+    "a_warfare:sheol_dust",
+    "a_warfare:peal_dust"
+  ]
+}

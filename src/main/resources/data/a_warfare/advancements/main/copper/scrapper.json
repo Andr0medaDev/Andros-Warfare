@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/copper_blueprint",
+  "criteria": {
+    "scrapper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:scrapper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.scrapper.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:scrapper"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.scrapper"
+    }
+  },
+  "requirements": [
+    [
+      "scrapper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "a_warfare:plasma_nugget"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:energy_cell"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_energy_cell"
+        },
+        [
+          {
+            "item": "a_warfare:empty_cell"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_energy_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_energy_cell"
+        },
+        [
+          {
+            "tag": "a_warfare:stan_bullet_tips"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_energy_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_energy_cell"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_energy_cell"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_energy_cell"
+  }
+}

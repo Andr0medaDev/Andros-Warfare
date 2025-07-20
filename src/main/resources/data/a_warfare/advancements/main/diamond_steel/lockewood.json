@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/diamond_steel/prush_gun",
+  "criteria": {
+    "lockewood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:lockewood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.lockewood.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:lockewood"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.lockewood"
+    }
+  },
+  "requirements": [
+    [
+      "lockewood"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

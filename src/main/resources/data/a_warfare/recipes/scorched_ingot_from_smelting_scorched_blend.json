@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "group": "scorched_ingot",
+  "experience": 0.7,
+  "ingredient": {
+    "item": "a_warfare:scorched_blend"
+  },
+  "result": "a_warfare:scorched_ingot"
+}

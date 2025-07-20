@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/blackpowder/blunderbuss",
+  "criteria": {
+    "musket": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:musket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.musket.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:musket"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.musket"
+    }
+  },
+  "requirements": [
+    [
+      "musket"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

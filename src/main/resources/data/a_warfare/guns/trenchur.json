@@ -1,0 +1,71 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": 3.9,
+      "zOffset": -4.7,
+      "textureLocation": "muzzle_flash_1"
+    }
+  },
+  "general": {
+    "alwaysSpread": false,
+    "fireMode": "a_warfare:semi_automatic",
+    "gripType": "a_warfare:one_handed",
+    "rate": 9,
+    "recoilAngle": 5.0,
+    "recoilKick": 2.0,
+    "spread": 3.0,
+    "meleeDamage": 6.5,
+    "meleeCooldownTicks": 10,
+    "meleeReach": 2.5,
+    "hotBarrelRate": 24,
+    "criticalChance": 0.15,
+    "isRevolver": true
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "size": 0.8,
+        "yOffset": 5.0,
+        "zOffset": 3.3
+      },
+      "barrel": {
+        "yOffset": 3.9,
+        "zOffset": -6.1
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 5.2,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 8.5,
+    "ejectsCasing": true,
+    "gravity": false,
+    "item": "a_warfare:compact_advanced_round",
+    "casingType": "a_warfare:small_brass_casing",
+    "casingParticle": "a_warfare:brass_casing",
+    "ejectDuringReload": true,
+    "life": 35,
+    "size": 1.0,
+    "speed": 5.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 45,
+    "maxAmmo": 6,
+    "reloadItem": "a_warfare:compact_copper_round",
+    "reloadTimer": 18,
+    "reloadType": "a_warfare:manual"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.iron_pistol.fire",
+    "fire": "a_warfare:item.iron_pistol.fire",
+    "reload": "a_warfare:item.gauss.reload",
+    "silencedFire": "a_warfare:item.makeshift_rifle.silenced_fire"
+  }
+}

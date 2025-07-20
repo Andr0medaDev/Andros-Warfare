@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "X": {
+      "item": "minecraft:iron_bars"
+    },
+    "M": {
+      "item": "a_warfare:vehement_coal"
+    }
+  },
+  "pattern": [
+    "QXQ",
+    "XMX",
+    "QXQ"
+  ],
+  "result": {
+    "item": "a_warfare:thermolith"
+  }
+}

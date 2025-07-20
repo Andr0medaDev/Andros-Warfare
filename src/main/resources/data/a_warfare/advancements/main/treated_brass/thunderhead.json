@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass/gattaler",
+  "criteria": {
+    "thunderhead": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:thunderhead"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.thunderhead.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:thunderhead"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.thunderhead"
+    }
+  },
+  "requirements": [
+    [
+      "thunderhead"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

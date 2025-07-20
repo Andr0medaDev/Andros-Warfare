@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/sulfur_chunk",
+  "criteria": {
+    "anthralite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:anthralite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.anthralite.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.anthralite"
+    }
+  },
+  "requirements": [
+    [
+      "anthralite_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

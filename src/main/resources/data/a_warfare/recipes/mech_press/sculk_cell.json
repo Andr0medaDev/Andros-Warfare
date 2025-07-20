@@ -1,0 +1,19 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 20,
+  "ingredients": [
+    {
+      "item": "a_warfare:empty_cell"
+    },
+    {
+      "item": "a_warfare:peal"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:sculk_cell",
+    "count": 1
+  }
+}

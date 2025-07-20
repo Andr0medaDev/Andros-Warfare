@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass/cogloader",
+  "criteria": {
+    "gale": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:gale"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.gale.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:gale"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.gale"
+    }
+  },
+  "requirements": [
+    [
+      "gale"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

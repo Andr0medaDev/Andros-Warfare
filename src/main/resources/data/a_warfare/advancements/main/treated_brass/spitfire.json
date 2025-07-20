@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass/gauss_rifle",
+  "criteria": {
+    "spitfire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:spitfire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.spitfire.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:spitfire"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.spitfire"
+    }
+  },
+  "requirements": [
+    [
+      "spitfire"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

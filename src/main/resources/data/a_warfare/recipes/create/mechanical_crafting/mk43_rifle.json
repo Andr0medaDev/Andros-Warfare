@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "X": {
+      "item": "a_warfare:gun_magazine"
+    },
+    "V": {
+      "item": "a_warfare:iron_gun_frame"
+    },
+    "P": {
+      "item": "a_warfare:iron_blueprint"
+    },
+    "K": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "CVP ",
+    "LRKS",
+    "Q X "
+  ],
+  "result": {
+    "item": "a_warfare:mk43_rifle"
+  }
+}

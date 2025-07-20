@@ -1,0 +1,16 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 300,
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "mold": {
+    "item": "a_warfare:gun_parts_mold"
+  },
+  "result": {
+    "item": "a_warfare:gun_parts",
+    "count": 2
+  }
+}

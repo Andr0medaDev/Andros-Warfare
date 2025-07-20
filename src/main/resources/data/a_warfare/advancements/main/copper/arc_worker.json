@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/copper/umax_pistol",
+  "criteria": {
+    "arc_worker": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:arc_worker"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.arc_worker.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:arc_worker"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.arc_worker"
+    }
+  },
+  "requirements": [
+    [
+      "arc_worker"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

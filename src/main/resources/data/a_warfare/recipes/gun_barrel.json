@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "a_warfare:anthralite_ingot"
+    }
+  },
+  "pattern": [
+    "  Q",
+    " Q ",
+    "Q  "
+  ],
+  "result": {
+    "item": "a_warfare:gun_barrel"
+  }
+}

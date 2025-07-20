@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "X": {
+      "item": "a_warfare:niter_dust"
+    },
+    "Q": {
+      "item": "minecraft:green_stained_glass"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QXQ",
+    "QQQ"
+  ],
+  "result": {
+    "item": "a_warfare:green_niter_glass",
+    "count": 8
+  }
+}

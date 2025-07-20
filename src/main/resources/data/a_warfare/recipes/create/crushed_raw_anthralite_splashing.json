@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "a_warfare:crushed_raw_anthralite"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "a_warfare:anthralite_nugget"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:niter_dust"
+    }
+  ]
+}

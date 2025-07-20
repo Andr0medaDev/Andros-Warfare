@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/craft_macerator",
+  "criteria": {
+    "nitro_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:nitro_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.nitro_powder.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item":  "a_warfare:nitro_powder"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.nitro_powder"
+    }
+  },
+  "requirements": [
+    [
+      "nitro_powder"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:powder_and_ball",
+    "a_warfare:compact_copper_round",
+    "a_warfare:standard_copper_round",
+    "a_warfare:compact_advanced_round",
+    "a_warfare:advanced_round",
+    "a_warfare:krahg_round",
+    "a_warfare:beowulf_round",
+    "a_warfare:shotgun_shell",
+    "a_warfare:bearpack_shell",
+    "a_warfare:microjet",
+    "a_warfare:rocket",
+    "a_warfare:osborne_slug",
+    "a_warfare:ramrod_round",
+    "a_warfare:energy_cell",
+    "a_warfare:grapeshot",
+    "a_warfare:blaze_fuel",
+    "a_warfare:hog_round",
+    "a_warfare:gibbs_round",
+    "a_warfare:shock_cell",
+    "a_warfare:sculk_cell",
+    "a_warfare:shulkshot",
+    "a_warfare:energy_core",
+    "a_warfare:standard_bullet",
+    "a_warfare:hardened_bullet",
+    "a_warfare:buckshot",
+    "a_warfare:nitro_buckshot",
+    "minecraft:blaze_rod",
+    "minecraft:arrow"
+  ]
+}

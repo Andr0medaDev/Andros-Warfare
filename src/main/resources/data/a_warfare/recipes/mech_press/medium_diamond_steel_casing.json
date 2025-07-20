@@ -1,0 +1,16 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 50,
+  "ingredients": [
+    {
+      "item": "a_warfare:diamond_steel_ingot"
+    }
+  ],
+  "mold": {
+    "item": "a_warfare:medium_casing_mold"
+  },
+  "result": {
+    "item": "a_warfare:medium_diamond_steel_casing",
+    "count": 8
+  }
+}

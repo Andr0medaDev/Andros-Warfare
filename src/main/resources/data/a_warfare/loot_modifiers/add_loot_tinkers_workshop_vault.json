@@ -1,0 +1,11 @@
+{
+  "type": "a_warfare:add_loot_table",
+  "conditions":
+  [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "idas:chests/tinkers_workshop/tinkers_workshop_vault"
+    }
+  ],
+  "lootTable": "a_warfare:chests/a_warfare_tinkers_workshop_vault"
+}

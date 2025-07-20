@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/copper/makeshift_rifle",
+  "criteria": {
+    "boomstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:boomstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.boomstick.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:boomstick"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.boomstick"
+    }
+  },
+  "requirements": [
+    [
+      "boomstick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/ocean/floundergat",
+  "criteria": {
+    "marlin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:marlin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.marlin.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:marlin"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.marlin"
+    }
+  },
+  "requirements": [
+    [
+      "marlin"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

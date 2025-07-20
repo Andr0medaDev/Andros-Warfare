@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "a_warfare:peal"
+    },
+    {
+      "item": "a_warfare:sheol"
+    },
+    {
+      "item": "a_warfare:netherite_scrap_chunk"
+    },
+    {
+      "item": "a_warfare:netherite_scrap_chunk"
+    },
+    {
+      "item": "a_warfare:netherite_scrap_chunk"
+    },
+    {
+      "item": "a_warfare:netherite_scrap_chunk"
+    },
+    {
+      "item": "a_warfare:niter_dust"
+    },
+    {
+      "item": "a_warfare:phosphor_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "a_warfare:nitro_powder"
+    }
+  ]
+}

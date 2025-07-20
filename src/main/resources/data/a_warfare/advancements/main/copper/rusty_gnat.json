@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/copper/scrapper",
+  "criteria": {
+    "rusty_gnat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:rusty_gnat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.rusty_gnat.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:rusty_gnat"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.rusty_gnat"
+    }
+  },
+  "requirements": [
+    [
+      "rusty_gnat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

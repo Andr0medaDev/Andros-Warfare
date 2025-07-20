@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C":
+    {
+      "item": "a_warfare:gun_magazine"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "M": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "a_warfare:iron_blueprint"
+    },
+    "A": {
+      "item": "a_warfare:treated_iron_ingot"
+    }
+  },
+  "pattern": [
+    "XAM  ",
+    "LRS  ",
+    "Q C  "
+  ],
+  "result": {
+    "item": "a_warfare:auvtomag"
+  }
+}

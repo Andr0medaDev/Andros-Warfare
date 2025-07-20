@@ -1,0 +1,27 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "a_warfare:raw_phosphor"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 3,
+      "item": "a_warfare:phosphor_dust"
+    },
+    {
+      "chance": 0.05,
+      "item": "a_warfare:phosphor_dust"
+    },
+    {
+      "chance": 0.03,
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "chance": 0.03,
+      "item": "a_warfare:sulfur_dust"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "W": {
+      "item": "a_warfare:anthralite_nugget"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "pattern": [
+    "   ",
+    "XRX",
+    "WQW"
+  ],
+  "result": {
+    "item": "a_warfare:medium_scope"
+  }
+}

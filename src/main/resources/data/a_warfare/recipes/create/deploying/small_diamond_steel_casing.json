@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "a_warfare:diamond_steel_ingot"
+    },
+    {
+      "item": "a_warfare:small_casing_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "a_warfare:small_diamond_steel_casing",
+        "count": 12
+    }
+  ]
+}

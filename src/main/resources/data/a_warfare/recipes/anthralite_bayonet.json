@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "a_warfare:anthralite_ingot"
+  },
+  "base": {
+    "item": "a_warfare:iron_bayonet"
+  },
+  "result": {
+    "item": "a_warfare:anthralite_bayonet"
+  },
+  "template": {
+    "item": "minecraft:leather"
+  }
+}

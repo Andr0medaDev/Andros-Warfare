@@ -1,0 +1,13 @@
+{
+  "type": "a_warfare:macerating",
+  "processingTime": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:nether_star_fragment",
+    "count": 3
+  }
+}

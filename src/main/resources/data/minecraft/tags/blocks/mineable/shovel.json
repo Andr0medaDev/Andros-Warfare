@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "scguns:niter",
-    "scguns:niter_block",
-    "scguns:sandbag"
+    "a_warfare:niter",
+    "a_warfare:niter_block",
+    "a_warfare:sandbag"
   ]
 }

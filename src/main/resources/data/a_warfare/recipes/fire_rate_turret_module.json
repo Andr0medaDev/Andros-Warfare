@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "Q": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "a_warfare:copper_disc"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    "QXQ"
+  ],
+  "result": {
+    "item": "a_warfare:fire_rate_turret_module"
+  }
+}

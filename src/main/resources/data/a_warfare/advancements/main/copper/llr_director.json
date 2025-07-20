@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/copper/bruiser",
+  "criteria": {
+    "llr_director": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:llr_director"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.llr_director.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:llr_director"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.llr_director"
+    }
+  },
+  "requirements": [
+    [
+      "llr_director"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

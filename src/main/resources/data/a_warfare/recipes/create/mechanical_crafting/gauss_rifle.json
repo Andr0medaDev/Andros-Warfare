@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C":
+    {
+      "item": "a_warfare:gun_magazine"
+    },
+    "L": {
+      "item": "a_warfare:plasma_core"
+    },
+    "R": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "M": {
+      "item": "a_warfare:treated_brass_ingot"
+    },
+    "X": {
+      "item": "a_warfare:treated_brass_blueprint"
+    },
+    "J": {
+      "tag": "minecraft:planks"
+    },
+    "K": {
+      "item": "a_warfare:treated_brass_gun_frame"
+    }
+  },
+  "pattern": [
+    "MKX ",
+    "LRJS",
+    "Q C "
+  ],
+  "result": {
+    "item": "a_warfare:gauss_rifle"
+  }
+}

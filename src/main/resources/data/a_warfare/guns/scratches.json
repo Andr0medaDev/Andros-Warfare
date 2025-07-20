@@ -1,0 +1,54 @@
+{
+  "display": {
+  },
+  "general": {
+    "alwaysSpread": true,
+    "fireMode": "a_warfare:automatic",
+    "gripType": "a_warfare:mini_gun_5",
+    "baseGripType": "a_warfare:mini_gun_5",
+    "projectileAmount": 7,
+    "rate": 6,
+    "recoilAngle": 3.5,
+    "recoilKick": 4.0,
+    "spread": 10.5,
+    "meleeDamage": 4.5,
+    "meleeCooldownTicks": 20,
+    "energyUse": 25.0,
+    "hotBarrelRate": 40,
+    "criticalChance": 0.05,
+    "speedModifier": 0.95
+  },
+  "modules": {
+    "attachments": {
+      "stock": {
+        "scale": 0.0
+      }
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 23.0,
+    "ejectsCasing": false,
+    "gravity": false,
+    "item": "a_warfare:nitro_buckshot",
+    "life": 50,
+    "size": 1.0,
+    "speed": 4.0,
+    "trailLengthMultiplier": 0.2
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 24,
+    "reloadItem": "a_warfare:nitro_buckshot",
+    "reloadTimer": 30,
+    "reloadType": "a_warfare:mag_fed"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.rusty_gnat.fire",
+    "fire": "a_warfare:item.rusty_gnat.fire",
+    "reload": "a_warfare:item.gauss.reload",
+    "silencedFire": "a_warfare:item.rusty_gnat.silenced_fire",
+    "flyby": "a_warfare:bullet.flyby1"
+  }
+}

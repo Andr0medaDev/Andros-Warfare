@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "a_warfare:rich_phosphorite_placed",
+  "step": "underground_ores"
+}

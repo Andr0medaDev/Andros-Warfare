@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/ocean/marlin",
+  "criteria": {
+    "bomb_lance": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:bomb_lance"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.bomb_lance.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:bomb_lance"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.bomb_lance"
+    }
+  },
+  "requirements": [
+    [
+      "bomb_lance"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

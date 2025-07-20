@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "P": {
+      "item": "a_warfare:copper_blueprint"
+    }
+  },
+  "pattern": [
+    "CCSP ",
+    "LRS  ",
+    "Q X  "
+  ],
+  "result": {
+    "item": "a_warfare:boomstick"
+  }
+}

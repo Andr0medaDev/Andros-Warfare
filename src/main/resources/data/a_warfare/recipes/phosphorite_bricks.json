@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "Q": {
+      "item": "a_warfare:polished_phosphorite"
+    }
+  },
+  "pattern": [
+    "QQ ",
+    "QQ "
+  ],
+  "result": {
+    "item": "a_warfare:phosphorite_bricks",
+    "count": 4
+  }
+}

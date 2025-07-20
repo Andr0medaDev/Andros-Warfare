@@ -1,0 +1,20 @@
+{
+  "type": "a_warfare:powered_mechanical_pressing",
+  "processingTime": 15,
+  "energyUse": 500,
+  "ingredients": [
+    {
+      "item": "a_warfare:small_iron_casing"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "tag": "a_warfare:stan_bullet_tips"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:microjet",
+    "count": 1
+  }
+}

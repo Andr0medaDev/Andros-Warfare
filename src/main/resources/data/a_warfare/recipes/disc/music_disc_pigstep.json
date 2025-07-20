@@ -1,0 +1,23 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 400,
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+        "item": "minecraft:charcoal"
+    },
+    {
+      "item": "minecraft:porkchop"
+    }
+
+  ],
+  "mold": {
+    "item": "a_warfare:disc_mold"
+  },
+  "result": {
+    "item": "minecraft:music_disc_pigstep",
+    "count": 1
+  }
+}

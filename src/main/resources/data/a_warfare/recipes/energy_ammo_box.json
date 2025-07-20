@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "a_warfare:anthralite_nugget"
+    },
+    "R": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "QRQ",
+    "RXR",
+    "QRQ"
+  ],
+  "result": {
+    "item": "a_warfare:energy_ammo_box"
+  }
+}

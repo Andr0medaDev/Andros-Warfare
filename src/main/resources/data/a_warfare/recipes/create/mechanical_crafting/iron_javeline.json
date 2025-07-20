@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "V": {
+      "item": "a_warfare:iron_gun_frame"
+    },
+    "P": {
+      "item": "a_warfare:iron_blueprint"
+    },
+    "K": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "CVKP ",
+    "LRSS ",
+    "Q K  "
+  ],
+  "result": {
+    "item": "a_warfare:iron_javelin"
+  }
+}

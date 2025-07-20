@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:flintlock_pistol",
+    "a_warfare:handcannon",
+    "a_warfare:musket",
+    "a_warfare:blunderbuss",
+    "a_warfare:repeating_musket",
+    "a_warfare:spitfire",
+    "a_warfare:blasphemy",
+    "a_warfare:pyroclastic_flow"
+  ]
+}

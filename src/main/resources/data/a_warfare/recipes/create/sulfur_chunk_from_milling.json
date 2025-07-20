@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "a_warfare:sulfur_chunk"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 3,
+      "item": "a_warfare:sulfur_dust"
+    },
+    {
+      "chance": 0.05,
+      "item": "a_warfare:sulfur_dust"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:yellow_dye"
+    }
+  ]
+}

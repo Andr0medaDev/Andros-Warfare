@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "a_warfare:block/lightning_battery",
+    "east": "a_warfare:block/lightning_battery_side_high_power",
+    "north": "a_warfare:block/lightning_battery_side_high_power",
+    "particle": "a_warfare:block/lightning_battery_side_high_power",
+    "south": "a_warfare:block/lightning_battery_side_high_power",
+    "up": "a_warfare:block/lightning_battery",
+    "west": "a_warfare:block/lightning_battery_side_high_power"
+  }
+}

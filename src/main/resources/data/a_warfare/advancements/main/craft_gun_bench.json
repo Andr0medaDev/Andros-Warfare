@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/root",
+  "criteria": {
+    "gun_bench": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:gun_bench"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.craft_gun_bench.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:gun_bench"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.craft_gun_bench"
+    }
+  },
+  "requirements": [
+    [
+      "gun_bench"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

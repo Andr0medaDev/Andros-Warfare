@@ -1,0 +1,64 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.7,
+      "yOffset": 8.0,
+      "zOffset": -13.5,
+      "textureLocation": "muzzle_flash_1",
+      "alternateMuzzleFlash": true,
+      "alternatePosition": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": -1.25
+      }
+    }
+  },
+  "general": {
+    "fireMode": "a_warfare:automatic",
+    "gripType": "a_warfare:mini_gun",
+    "baseGripType": "a_warfare:mini_gun",
+    "rate": 8,
+    "recoilAngle": 6.0,
+    "recoilKick": 2.0,
+    "spread": 5.0,
+    "meleeDamage": 3.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 15,
+    "criticalChance": 0.05,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.25,
+    "meleeReach": 3.5,
+    "speedModifier": 0.8
+  },
+  "modules": {
+    "attachments": {
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:heavy",
+    "damage": 21.0,
+    "gravity": false,
+    "item": "a_warfare:krahg_round",
+    "ejectsCasing": true,
+    "casingType": "a_warfare:large_brass_casing",
+    "casingParticle": "a_warfare:brass_casing",
+    "life": 60,
+    "size": 0.1,
+    "speed": 5.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 25,
+    "reloadItem": "a_warfare:krahg_round",
+    "reloadTimer": 60,
+    "reloadType": "a_warfare:mag_fed"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.heavy_rifle.fire",
+    "fire": "a_warfare:item.heavy_rifle.fire",
+    "reload": "a_warfare:item.gauss.reload",
+    "flyby": "a_warfare:bullet.flyby1"
+  }
+}

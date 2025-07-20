@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass/thunderhead",
+  "criteria": {
+    "dozier_rl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:dozier_rl"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.dozier_rl.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:dozier_rl"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.dozier_rl"
+    }
+  },
+  "requirements": [
+    [
+      "dozier_rl"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

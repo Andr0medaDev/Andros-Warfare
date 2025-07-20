@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:sponge"
+    },
+    "Q": {
+      "item": "a_warfare:anthralite_ingot"
+    }
+  },
+  "pattern": [
+    "  Q",
+    " # ",
+    "Q  "
+  ],
+  "result": {
+    "item": "a_warfare:advanced_silencer"
+  }
+}

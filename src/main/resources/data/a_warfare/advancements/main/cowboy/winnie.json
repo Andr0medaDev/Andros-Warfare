@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/cowboy/pax",
+  "criteria": {
+    "winnie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:winnie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.winnie.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:winnie"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.winnie"
+    }
+  },
+  "requirements": [
+    [
+      "winnie"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

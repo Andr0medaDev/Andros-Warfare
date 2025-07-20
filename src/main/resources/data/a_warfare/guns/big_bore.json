@@ -1,0 +1,78 @@
+{
+  "display": {
+    "flash": {
+      "size": 2.0,
+      "yOffset": 3.8,
+      "zOffset": -25.0,
+      "textureLocation": "muzzle_flash_5",
+      "spawnParticles": true,
+      "particleType": "minecraft:campfire_cosy_smoke",
+      "particleCount": 25,
+      "particleSpread": 0.7,
+      "particleRingRadius": 0.7
+    }
+  },
+  "general": {
+    "alwaysSpread": false,
+    "fireMode": "a_warfare:semi_automatic",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "rate": 20,
+    "recoilAngle": 20.0,
+    "recoilKick": 20.0,
+    "spread": 0.0,
+    "meleeDamage": 4.0,
+    "meleeReach": 4.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 37,
+    "criticalChance": 0.05,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 2.5
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "size": 0.7,
+        "yOffset": 6.4,
+        "zOffset": 2.0
+      },
+      "stock": {
+        "scale": 0.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.7,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:heavy",
+    "damage": 80.0,
+    "ejectsCasing": true,
+    "gravity": false  ,
+    "item": "a_warfare:osborne_slug",
+    "casingType": "a_warfare:large_iron_casing",
+    "casingParticle": "a_warfare:iron_casing",
+    "ejectDuringReload": true,
+    "life": 100,
+    "size": 1.0,
+    "speed": 14.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 1  ,
+    "reloadItem": "a_warfare:osborne_slug",
+    "reloadTimer": 70,
+    "reloadType": "a_warfare:mag_fed"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.scorched_sniper.fire",
+    "fire": "a_warfare:item.scorched_sniper.fire",
+    "reload": "a_warfare:item.gauss.reload",
+    "silencedFire": "a_warfare:item.bruiser.silenced_fire",
+    "flyby": "a_warfare:bullet.flyby1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "L": {
+      "item": "a_warfare:niter_dust"
+    },
+    "R": {
+      "item": "minecraft:tnt"
+    },
+    "X": {
+      "item": "a_warfare:phosphor_dust"
+    },
+    "P": {
+      "item": "a_warfare:buckshot"
+    }
+  },
+  "pattern": [
+    "QXQ",
+    "PRP",
+    "QLQ"
+  ],
+  "result": {
+    "item": "a_warfare:powder_keg",
+    "count": 2
+  }
+}

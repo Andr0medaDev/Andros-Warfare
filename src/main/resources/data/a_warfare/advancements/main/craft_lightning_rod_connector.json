@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/craft_lightning_battery",
+  "criteria": {
+    "lightning_rod_connector": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:lightning_rod_connector"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.craft_lightning_rod_connector.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:lightning_rod_connector"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.craft_lightning_rod_connector"
+    }
+  },
+  "requirements": [
+    [
+      "lightning_rod_connector"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

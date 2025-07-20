@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "a_warfare:item/cog_knight_boots"
+  }
+}

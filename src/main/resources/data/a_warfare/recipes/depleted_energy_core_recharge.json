@@ -1,0 +1,14 @@
+{
+  "type": "a_warfare:lightning_battery",
+  "processingTime": 300,
+  "requiredEnergy": 12000,
+  "ingredients": [
+    {
+      "item": "a_warfare:depleted_energy_core"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "a_warfare:energy_core"
+  }
+}

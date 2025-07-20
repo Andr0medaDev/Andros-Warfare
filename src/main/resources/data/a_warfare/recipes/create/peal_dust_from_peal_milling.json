@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "a_warfare:peal"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 6,
+      "item": "a_warfare:peal_dust"
+    }
+  ]
+}

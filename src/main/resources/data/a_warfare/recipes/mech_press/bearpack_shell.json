@@ -1,0 +1,19 @@
+{
+  "type": "a_warfare:mechanical_pressing",
+  "processingTime": 20,
+  "ingredients": [
+    {
+      "item": "a_warfare:medium_brass_casing"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "a_warfare:nitro_buckshot"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:bearpack_shell",
+    "count": 1
+  }
+}

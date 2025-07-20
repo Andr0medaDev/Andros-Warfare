@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:compact_copper_round",
+    "a_warfare:compact_advanced_round",
+    "a_warfare:hog_round"
+  ]
+}

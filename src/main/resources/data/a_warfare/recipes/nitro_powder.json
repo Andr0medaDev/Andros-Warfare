@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "minecraft:gunpowder"
+    },
+    "W": {
+      "item": "a_warfare:peal"
+    },
+    "Q": {
+      "item": "a_warfare:sheol"
+    },
+    "#": {
+      "item": "a_warfare:netherite_scrap_chunk"
+    },
+    "M": {
+      "item": "a_warfare:niter_dust"
+    },
+    "L": {
+      "item": "a_warfare:phosphor_dust"
+    }
+  },
+  "pattern": [
+    "###",
+    "E#Q",
+    "LWM"
+  ],
+  "result": {
+    "item": "a_warfare:nitro_powder",
+    "count": 7
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "a_warfare:blank_mold"
+  },
+  "result": "a_warfare:small_casing_mold"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_ocean",
+  "features": "a_warfare:patch_geothermal_vent",
+  "step": "vegetal_decoration"
+}

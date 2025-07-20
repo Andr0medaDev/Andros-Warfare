@@ -1,0 +1,14 @@
+{
+  "type": "a_warfare:powered_macerating",
+  "processingTime": 50,
+  "energyUse": 1000,
+  "ingredients": [
+    {
+      "item": "a_warfare:sulfur_chunk"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:sulfur_dust",
+    "count": 3
+  }
+}

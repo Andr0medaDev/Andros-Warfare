@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "Q  ",
+    "XX ",
+    "QQ "
+  ],
+  "result": {
+    "item": "a_warfare:gun_magazine"
+  }
+}

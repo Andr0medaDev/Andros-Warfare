@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:energy_cell",
+    "a_warfare:blaze_fuel",
+    "a_warfare:shock_cell",
+    "a_warfare:sculk_cell",
+    "a_warfare:energy_core"
+  ]
+}

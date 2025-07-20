@@ -1,0 +1,34 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"0": "a_warfare:items/advanced_round",
+		"particle": "a_warfare:item/advanced_round"
+	},
+	"loader": "forge:separate_transforms",
+	"base": {
+		"parent": "a_warfare:item/advanced_round_3d"
+	},
+	"perspectives": {
+		"firstperson_righthand": {
+			"parent": "a_warfare:item/krahg_round_2d"
+		},
+		"firstperson_lefthand": {
+			"parent": "a_warfare:item/krahg_round_2d"
+		},
+		"thirdperson_righthand": {
+			"parent": "a_warfare:item/krahg_round_2d"
+		},
+		"fixed": {
+			"parent": "a_warfare:item/krahg_round_2d"
+		},
+		"thirdperson_lefthand": {
+			"parent": "a_warfare:item/krahg_round_2d"
+		},
+		"gui": {
+			"parent": "a_warfare:item/krahg_round_2d"
+		},
+		"ground": {
+			"parent": "a_warfare:item/krahg_round_2d"
+		}
+	}
+}

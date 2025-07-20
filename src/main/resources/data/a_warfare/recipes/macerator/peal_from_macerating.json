@@ -1,0 +1,32 @@
+{
+  "type": "a_warfare:macerating",
+  "processingTime": 100,
+  "ingredients": [
+    [
+      {
+        "item": "a_warfare:sulfur_chunk"
+      },
+      {
+        "tag": "forge:dusts/sulfur"
+      }
+    ],
+    {
+      "item": "minecraft:sculk"
+    },
+    [
+      {
+        "item": "a_warfare:raw_phosphor"
+      },
+      {
+        "item": "a_warfare:phosphor_dust"
+      }
+    ],
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:peal",
+    "count": 8
+  }
+}

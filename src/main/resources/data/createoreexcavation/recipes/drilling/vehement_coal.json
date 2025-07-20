@@ -11,11 +11,11 @@
   "output": [
     {
       "chance": 0.4,
-      "item": "scguns:vehement_coal"
+      "item": "a_warfare:vehement_coal"
     },
     {
       "chance": 0.6,
-      "item": "scguns:sulfur_chunk"
+      "item": "a_warfare:sulfur_chunk"
     },
     {
       "chance": 0.8,

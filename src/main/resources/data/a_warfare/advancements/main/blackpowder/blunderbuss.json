@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/blackpowder/handcannon",
+  "criteria": {
+    "blunderbuss": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:blunderbuss"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.blunderbuss.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:blunderbuss"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.blunderbuss"
+    }
+  },
+  "requirements": [
+    [
+      "blunderbuss"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

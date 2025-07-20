@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass/spitfire",
+  "criteria": {
+    "gattaler": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:gattaler"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.gattaler.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:gattaler"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.gattaler"
+    }
+  },
+  "requirements": [
+    [
+      "gattaler"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

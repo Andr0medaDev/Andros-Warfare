@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "I": {
+      "item": "a_warfare:iron_gun_frame"
+    },
+    "X": {
+      "item": "a_warfare:treated_brass_ingot"
+    },
+    "O": {
+      "item": "a_warfare:ocean_blueprint"
+    },
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "pattern": [
+    "XICO",
+    "LRSS",
+    "Q P "
+  ],
+  "result": {
+    "item": "a_warfare:marlin"
+  }
+}

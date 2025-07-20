@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "throwable",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:flower_pot"
+    },
+    "Q": {
+      "item": "a_warfare:buckshot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "QXQ",
+    " # "
+  ],
+  "result": {
+    "item": "a_warfare:grenade"
+  }
+}

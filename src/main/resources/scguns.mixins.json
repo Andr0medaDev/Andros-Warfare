@@ -1,10 +1,10 @@
 {
     "required": true,
-    "package": "top.ribs.scguns.mixin",
+    "package": "top.andro.a_warfare.mixin",
     "compatibilityLevel": "JAVA_8",
     "minVersion": "0.8",
-    "refmap": "scguns.refmap.json",
-    "plugin": "top.ribs.scguns.mixin.MixinPlugin",
+    "refmap": "a_warfare.refmap.json",
+    "plugin": "top.andro.a_warfare.mixin.MixinPlugin",
     "mixins": [
         "common.EndPortalBlockMixin",
         "common.ItemRarityMixin",

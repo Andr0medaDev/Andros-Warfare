@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C":
+    {
+      "item": "a_warfare:gun_magazine"
+    },
+    "L": {
+      "item": "a_warfare:rapid_firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "M": {
+      "item": "a_warfare:diamond_steel_ingot"
+    },
+    "X": {
+      "item": "a_warfare:diamond_steel_blueprint"
+    }
+  },
+  "pattern": [
+    "MMX",
+    "LRS",
+    "Q C"
+  ],
+  "result": {
+    "item": "a_warfare:soul_drummer"
+  }
+}

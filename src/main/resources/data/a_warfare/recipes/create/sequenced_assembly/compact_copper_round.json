@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "a_warfare:small_copper_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:compact_copper_round"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_compact_copper_round"
+        },
+        [
+          {
+            "tag": "a_warfare:gunpowder_dust"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_compact_copper_round"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_compact_copper_round"
+        },
+        [
+          {
+            "tag": "a_warfare:stan_bullet_tips"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_compact_copper_round"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_compact_copper_round"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_compact_copper_round"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_compact_copper_round"
+  }
+}

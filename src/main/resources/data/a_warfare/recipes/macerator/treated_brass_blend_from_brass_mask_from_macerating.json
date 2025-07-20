@@ -1,0 +1,13 @@
+{
+  "type": "a_warfare:macerating",
+  "processingTime": 100,
+  "ingredients": [
+    {
+      "item": "a_warfare:brass_mask"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:treated_brass_blend",
+    "count": 2
+  }
+}

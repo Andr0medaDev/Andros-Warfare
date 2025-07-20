@@ -1,18 +1,18 @@
 {
   "replace": false,
   "entries": [
-    "scguns:add_loot_dungeon",
-    "scguns:add_loot_mineshaft",
-    "scguns:add_loot_end_city_treasure",
-    "scguns:add_loot_bastion_treasure",
-    "scguns:add_loot_bastion_bridge",
-    "scguns:add_loot_buried_treasure",
-    "scguns:add_loot_ancient_city",
-    "scguns:pebbles_from_gravel",
-    "scguns:add_loot_stronghold_library",
-    "scguns:add_loot_piglin_trading",
-    "scguns:add_loot_stronghold_corridor",
-    "scguns:add_loot_tinkers_citadel_vault",
-    "scguns:add_loot_tinkers_workshop_vault"
+    "a_warfare:add_loot_dungeon",
+    "a_warfare:add_loot_mineshaft",
+    "a_warfare:add_loot_end_city_treasure",
+    "a_warfare:add_loot_bastion_treasure",
+    "a_warfare:add_loot_bastion_bridge",
+    "a_warfare:add_loot_buried_treasure",
+    "a_warfare:add_loot_ancient_city",
+    "a_warfare:pebbles_from_gravel",
+    "a_warfare:add_loot_stronghold_library",
+    "a_warfare:add_loot_piglin_trading",
+    "a_warfare:add_loot_stronghold_corridor",
+    "a_warfare:add_loot_tinkers_citadel_vault",
+    "a_warfare:add_loot_tinkers_workshop_vault"
   ]
 }

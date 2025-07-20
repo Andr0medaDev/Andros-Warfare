@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "M": {
+      "item": "a_warfare:diamond_steel_ingot"
+    },
+    "X": {
+      "item": "a_warfare:diamond_steel_blueprint"
+    },
+    "K": {
+      "item": "a_warfare:diamond_steel_gun_frame"
+    }
+  },
+  "pattern": [
+    "MKX ",
+    "LRSS",
+    "Q C "
+  ],
+  "result": {
+    "item": "a_warfare:inertial"
+  }
+}

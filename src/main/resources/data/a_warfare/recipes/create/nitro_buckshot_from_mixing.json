@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "a_warfare:nitro_powder_dust"
+    },
+    {
+      "item": "a_warfare:buckshot"
+    },
+    {
+      "item": "a_warfare:buckshot"
+    },
+    {
+      "item": "a_warfare:phosphor_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "item": "a_warfare:nitro_buckshot"
+    }
+  ]
+}

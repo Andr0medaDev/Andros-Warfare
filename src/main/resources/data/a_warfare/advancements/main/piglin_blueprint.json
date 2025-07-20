@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/treated_brass_blueprint",
+  "criteria": {
+    "piglin_blueprint": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:piglin_blueprint"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.piglin_blueprint.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:piglin_blueprint"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.piglin_blueprint"
+    }
+  },
+  "requirements": [
+    [
+      "piglin_blueprint"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

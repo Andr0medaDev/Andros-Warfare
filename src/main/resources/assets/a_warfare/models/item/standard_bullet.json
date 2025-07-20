@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "0": "a_warfare:items/standard_bullet",
+    "particle": "a_warfare:item/standard_bullet"
+  },
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "a_warfare:item/compact_advanced_round_3d"
+  },
+  "perspectives": {
+    "firstperson_righthand": {
+      "parent": "a_warfare:item/standard_bullet_2d"
+    },
+    "firstperson_lefthand": {
+      "parent": "a_warfare:item/standard_bullet_2d"
+    },
+    "thirdperson_righthand": {
+      "parent": "a_warfare:item/standard_bullet_2d"
+    },
+    "thirdperson_lefthand": {
+      "parent": "a_warfare:item/standard_bullet_2d"
+    },
+    "fixed": {
+      "parent": "a_warfare:item/standard_bullet_2d"
+    },
+    "gui": {
+      "parent": "a_warfare:item/standard_bullet_2d"
+    },
+    "ground": {
+      "parent": "a_warfare:item/standard_bullet_2d"
+    }
+  }
+}

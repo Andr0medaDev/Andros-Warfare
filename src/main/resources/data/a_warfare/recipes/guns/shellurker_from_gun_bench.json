@@ -1,0 +1,42 @@
+{
+  "type": "a_warfare:gun_bench",
+  "result": {
+    "item": "a_warfare:shellurker",
+    "count": 1
+  },
+  "ingredients": {
+    "blueprint": {
+      "item": "a_warfare:end_blueprint"
+    },
+    "gun_internal_1": {
+      "item": "a_warfare:firing_unit"
+    },
+    "gun_internal_2": {
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    "gun_top_internal_1": {
+      "item": "a_warfare:diamond_steel_gun_frame"
+    },
+    "gun_top_internal_2": {
+      "item": "a_warfare:diamond_steel_gun_frame"
+    },
+    "gun_barrel_2": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "gun_grip": {
+      "item": "a_warfare:gun_grip"
+    },
+    "gun_barrel_1": {
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    "gun_top_barrel_1": {
+      "item": "minecraft:shulker_shell"
+    },
+    "gun_top_barrel_2": {
+      "item": "minecraft:shulker_shell"
+    },
+    "gun_magazine": {
+      "item": "minecraft:shulker_shell"
+    }
+  }
+}

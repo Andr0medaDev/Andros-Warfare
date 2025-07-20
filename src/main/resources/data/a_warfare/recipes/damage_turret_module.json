@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "a_warfare:anthralite_ingot"
+    },
+    "Q":
+    [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "a_warfare:treated_iron_ingot"
+      }
+    ],
+    "M": {
+      "item": "a_warfare:heavy_gun_parts"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#M#",
+    "Q#Q"
+  ],
+  "result": {
+    "item": "a_warfare:damage_turret_module"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "a_warfare:mangalitsa"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "a_warfare:vehement_coal"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:anthralite_ingot"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:heavy_gun_barrel"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:heavy_gun_parts"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:gun_magazine"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:rapid_firing_unit"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "a_warfare:block/plasma_lantern"
+    },
+    "hanging=true": {
+      "model": "a_warfare:block/plasma_lantern_hanging"
+    }
+  }
+}

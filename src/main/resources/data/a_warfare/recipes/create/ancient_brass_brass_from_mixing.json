@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "a_warfare:ancient_brass"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "item": "create:brass_ingot"
+    }
+  ]
+}

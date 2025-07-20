@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "a_warfare:block/skibidi"
+    },
+    "facing=south": {
+      "model": "a_warfare:block/skibidi",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "a_warfare:block/skibidi",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "a_warfare:block/skibidi",
+      "y": 90
+    },
+    "facing=up": {
+      "model": "a_warfare:block/skibidi",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "a_warfare:block/skibidi",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "a_warfare:macerating",
+  "processingTime": 100,
+  "ingredients": [
+    {
+      "item": "a_warfare:raw_phosphor"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:phosphor_dust",
+    "count": 3
+  }
+}

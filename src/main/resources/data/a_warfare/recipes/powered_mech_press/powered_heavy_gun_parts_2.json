@@ -1,0 +1,17 @@
+{
+  "type": "a_warfare:powered_mechanical_pressing",
+  "processingTime": 100,
+  "energyUse": 500,
+  "ingredients": [
+    {
+      "item": "a_warfare:treated_iron_block"
+    }
+  ],
+  "mold": {
+    "item": "a_warfare:gun_parts_mold"
+  },
+  "result": {
+    "item": "a_warfare:heavy_gun_parts",
+    "count": 1
+  }
+}

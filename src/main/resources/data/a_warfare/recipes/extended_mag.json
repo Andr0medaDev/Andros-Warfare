@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_magazine"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "XX ",
+    "QQ "
+  ],
+  "result": {
+    "item": "a_warfare:extended_mag"
+  }
+}

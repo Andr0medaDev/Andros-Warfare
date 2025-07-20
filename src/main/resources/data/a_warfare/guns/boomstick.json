@@ -1,0 +1,80 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 3.8,
+      "zOffset": -4.8,
+     "xOffset": 0.75,
+      "textureLocation": "muzzle_flash_1",
+      "alternateMuzzleFlash": true,
+      "alternatePosition": {
+        "x": -1.5,
+        "y": 0.0,
+        "z": -0.0
+      }
+    }
+  },
+  "general": {
+    "alwaysSpread": true,
+    "fireMode": "a_warfare:semi_automatic",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "projectileAmount": 19,
+    "rate": 12,
+    "recoilAngle": 13.0,
+    "recoilKick": 2.5,
+    "spread": 16.0,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 45,
+    "criticalChance": 0.08,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.45
+  },
+  "modules": {
+    "attachments": {
+      "barrel": {
+        "yOffset": 3.8,
+        "zOffset": -6.25
+      },
+      "stock": {
+        "scale": 0.0
+      },
+      "underBarrel": {
+        "yOffset": 5.5,
+        "zOffset": -2.5
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 5.7,
+      "zOffset": 1.0
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 16.5,
+    "ejectsCasing": true,
+    "item": "a_warfare:shotgun_shell",
+    "casingType": "a_warfare:small_copper_casing",
+    "casingParticle": "a_warfare:shell",
+    "life": 25,
+    "size": 0.5,
+    "speed": 5.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 0,
+    "maxAmmo": 4,
+    "reloadItem": "a_warfare:shotgun_shell",
+    "reloadTimer": 60,
+    "reloadType": "a_warfare:manual"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.boomstick.fire",
+    "fire": "a_warfare:item.boomstick.fire",
+    "silencedFire": "a_warfare:item.combat_shotgun.silenced_fire",
+    "reload": "a_warfare:item.gauss.reload"
+  }
+}

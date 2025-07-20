@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/iron_blueprint",
+  "criteria": {
+    "defender_pistol": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:defender_pistol"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.defender_pistol.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:defender_pistol"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.defender_pistol"
+    }
+  },
+  "requirements": [
+    [
+      "defender_pistol"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

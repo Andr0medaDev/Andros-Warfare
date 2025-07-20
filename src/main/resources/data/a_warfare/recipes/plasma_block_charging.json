@@ -1,0 +1,14 @@
+{
+  "type": "a_warfare:lightning_battery",
+  "processingTime": 400,
+  "requiredEnergy": 42000,
+  "ingredients": [
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "a_warfare:plasma_block"
+  }
+}

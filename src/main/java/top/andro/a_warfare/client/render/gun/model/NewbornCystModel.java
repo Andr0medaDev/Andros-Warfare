@@ -1,0 +1,159 @@
+package top.andro.a_warfare.client.render.gun.model;
+
+import com.mojang.blaze3d.vertex.PoseStack;
+import com.mojang.math.Axis;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemCooldowns;
+import net.minecraft.world.item.ItemDisplayContext;
+import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import top.andro.a_warfare.Reference;
+import top.andro.a_warfare.client.SpecialModels;
+import top.andro.a_warfare.client.render.gun.IOverrideModel;
+import top.andro.a_warfare.client.util.RenderUtil;
+import top.andro.a_warfare.common.Gun;
+import top.andro.a_warfare.event.GunFireEvent;
+import top.andro.a_warfare.init.ModItems;
+import top.andro.a_warfare.item.attachment.IAttachment;
+
+public class NewbornCystModel implements IOverrideModel {
+    private static final int TOTAL_SHOTS = 7;
+    private static final float ROTATION_INCREMENT = 360.0f / TOTAL_SHOTS;
+    private float currentRotation = 0.0f;
+    private float targetRotation = 0.0f;
+
+    @Override
+    public void render(float partialTicks, ItemDisplayContext transformType, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
+        RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
+        renderStockAttachments(matrixStack, buffer, stack, light, overlay);
+        renderBarrelAttachments(matrixStack, buffer, stack, light, overlay);
+        renderUnderBarrelAttachments(matrixStack, buffer, stack, light, overlay);
+
+        // Render the iron sights if no scope is attached.
+        if (Gun.getScope(stack) == null) {
+            RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        } else {
+            RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_NO_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        }
+
+        if (entity.equals(Minecraft.getInstance().player)) {
+            renderBoltAndMagazine(matrixStack, buffer, stack, partialTicks, light, overlay);
+        }
+        if (entity.equals(Minecraft.getInstance().player)) {
+            matrixStack.pushPose();
+            matrixStack.translate(0, -0.30, 0.33);
+            ItemCooldowns tracker = Minecraft.getInstance().player.getCooldowns();
+            float cooldown = tracker.getCooldownPercent(stack.getItem(), Minecraft.getInstance().getFrameTime());
+            cooldown = (float) ease(cooldown);
+            float rotationAngle = -cooldown * 30;
+            matrixStack.mulPose(Axis.XP.rotationDegrees(rotationAngle));
+            matrixStack.translate(0, 0.30, -0.33);
+            RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_HAMMER.getModel(), stack, matrixStack, buffer, light, overlay);
+            matrixStack.popPose();
+        }
+    }
+
+    private void renderStockAttachments(PoseStack matrixStack, MultiBufferSource buffer, ItemStack stack, int light, int overlay) {
+        if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.STOCK)) {
+            if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WOODEN_STOCK.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_STOCK_WOODEN.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            }
+        }
+    }
+
+    private void renderBarrelAttachments(PoseStack matrixStack, MultiBufferSource buffer, ItemStack stack, int light, int overlay) {
+        boolean hasExtendedBarrel = false;
+
+        if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.BARREL)) {
+            if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.EXTENDED_BARREL.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_EXT_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+                hasExtendedBarrel = true;
+            } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.MUZZLE_BRAKE.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_MUZZLE_BRAKE.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.ADVANCED_SILENCER.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_ADVANCED_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
+            }
+        }
+
+        // Render the standard barrel if no extended barrel is attached
+        if (!hasExtendedBarrel) {
+            RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_STAN_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+        }
+    }
+
+    private void renderUnderBarrelAttachments(PoseStack matrixStack, MultiBufferSource buffer, ItemStack stack, int light, int overlay) {
+        if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.UNDER_BARREL)) {
+            if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.VERTICAL_GRIP.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_TACT_GRIP.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.LIGHT_GRIP.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_LIGHT_GRIP.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.IRON_BAYONET.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_IRON_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.ANTHRALITE_BAYONET.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_ANTHRALITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.DIAMOND_BAYONET.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_DIAMOND_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.NETHERITE_BAYONET.get()) {
+                RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_NETHERITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+            }
+        }
+    }
+
+    private void renderBoltAndMagazine(PoseStack matrixStack, MultiBufferSource buffer, ItemStack stack, float partialTicks, int light, int overlay) {
+        ItemCooldowns tracker = Minecraft.getInstance().player.getCooldowns();
+        float cooldown = tracker.getCooldownPercent(stack.getItem(), Minecraft.getInstance().getFrameTime());
+        int shotCount = GunFireCystEventHandler.getShotCount();
+        targetRotation = shotCount * ROTATION_INCREMENT;
+
+        // Interpolate rotation
+        currentRotation = currentRotation + (targetRotation - currentRotation) * partialTicks;
+
+        matrixStack.pushPose();
+        matrixStack.translate(0, -5.8 * 0.0625, 0);
+        if (cooldown > 0) {
+            matrixStack.translate(0, 0, cooldown / 8);
+        }
+        matrixStack.translate(0, 5.8 * 0.0625, 0);
+        matrixStack.popPose();
+        renderMagazineRotation(matrixStack, buffer, stack, light, overlay);
+    }
+
+    private void renderMagazineRotation(PoseStack matrixStack, MultiBufferSource buffer, ItemStack stack, int light, int overlay) {
+        matrixStack.pushPose();
+        matrixStack.translate(0, -0.21, 0);
+        matrixStack.mulPose(Axis.ZP.rotationDegrees(currentRotation));
+        matrixStack.translate(0, 0.21, 0);
+        RenderUtil.renderModel(SpecialModels.NEWBORN_CYST_DRUM.getModel(), stack, matrixStack, buffer, light, overlay);
+        matrixStack.popPose();
+    }
+
+    @Mod.EventBusSubscriber(modid = Reference.MOD_ID, value = Dist.CLIENT)
+    public static class GunFireCystEventHandler {
+        private static int shotCount = 0;
+
+        @SubscribeEvent
+        public static void onGunFire(GunFireEvent.Post event) {
+            if (event.isClient()) {
+                shotCount++;
+                shotCount %= TOTAL_SHOTS; // Ensure shotCount is always within the bounds of the drum capacity
+            }
+        }
+
+        public static int getShotCount() {
+            return shotCount;
+        }
+    }
+    private double ease(double x) {
+        return 1 - Math.pow(1 - (2 * x), 4);
+    }
+}

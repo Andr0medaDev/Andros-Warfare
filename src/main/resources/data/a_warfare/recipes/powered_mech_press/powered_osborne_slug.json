@@ -1,0 +1,20 @@
+{
+  "type": "a_warfare:powered_mechanical_pressing",
+  "processingTime": 15,
+  "energyUse": 500,
+  "ingredients": [
+    {
+      "item": "a_warfare:large_iron_casing"
+    },
+    {
+      "item": "a_warfare:nitro_powder_dust"
+    },
+    {
+      "item": "a_warfare:nether_star_fragment"
+    }
+  ],
+  "result": {
+    "item": "a_warfare:osborne_slug",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "a_warfare:rich_phosphorite"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "count": 2,
+      "item": "a_warfare:raw_phosphor"
+    },
+    {
+      "chance": 0.3,
+      "item": "a_warfare:phosphor_dust"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

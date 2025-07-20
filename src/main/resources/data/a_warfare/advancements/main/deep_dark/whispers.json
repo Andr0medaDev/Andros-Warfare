@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/deep_dark_blueprint",
+  "criteria": {
+    "whispers": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:whispers"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.whispers.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:whispers"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.whispers"
+    }
+  },
+  "requirements": [
+    [
+      "whispers"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

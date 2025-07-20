@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "a_warfare:hardened_bullet",
+    "a_warfare:anthralite_nugget",
+    "a_warfare:treated_iron_nugget",
+    {"id":"immersiveengineering:nugget_steel",  "required":false},
+    {"id":"magistuarmory:steel_nugget",  "required":false}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/deep_dark_blueprint",
+  "criteria": {
+    "end_blueprint": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:end_blueprint"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.end_blueprint.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:end_blueprint"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.end_blueprint"
+    }
+  },
+  "requirements": [
+    [
+      "end_blueprint"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

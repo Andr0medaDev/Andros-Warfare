@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/diamond_steel/mas_55",
+  "criteria": {
+    "plasgun": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:plasgun"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.plasgun.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:plasgun"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.plasgun"
+    }
+  },
+  "requirements": [
+    [
+      "plasgun"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

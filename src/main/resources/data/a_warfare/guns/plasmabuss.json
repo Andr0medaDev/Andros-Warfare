@@ -1,0 +1,65 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.3,
+      "yOffset": 3.8,
+      "zOffset": -6.5,
+      "textureLocation": "muzzle_flash_3"
+    }
+  },
+  "general": {
+    "alwaysSpread": true,
+    "fireMode": "a_warfare:semi_automatic",
+    "gripType": "a_warfare:two_handed",
+    "baseGripType": "a_warfare:two_handed",
+    "projectileAmount": 4,
+    "rate": 6,
+    "recoilAngle": 10.0,
+    "recoilKick": 2.0,
+    "spread": 4.0,
+    "meleeDamage": 5.0,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 26,
+    "criticalChance": 0.05
+  },
+  "modules": {
+    "attachments": {
+
+      "stock": {
+        "scale": 0.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 5.3,
+      "zOffset": 1.5
+    }
+  },
+  "projectile": {
+    "advantage": "a_warfare:none",
+    "damage": 22.0,
+    "ejectsCasing": true,
+    "gravity": false,
+    "item": "a_warfare:energy_cell",
+    "casingType": "a_warfare:empty_cell",
+    "casingParticle": "a_warfare:iron_casing",
+    "life": 45,
+    "size": 6.0,
+    "speed": 2.0,
+    "trailLengthMultiplier": 1.0,
+    "trailColor": 3329330
+  },
+  "reloads": {
+    "emptyMagTimer": 50,
+    "maxAmmo": 5,
+    "reloadItem": "a_warfare:energy_cell",
+    "reloadTimer": 15,
+    "reloadType": "a_warfare:manual"
+  },
+  "sounds": {
+    "cock": "a_warfare:item.pistol.cock",
+    "enchantedFire": "a_warfare:item.blackpowder.fire",
+    "fire": "a_warfare:item.blackpowder.fire",
+    "reload": "a_warfare:item.gauss.reload"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "scguns:vehement_coal_ore",
-    "scguns:vehement_coal_block",
-    "scguns:sulfur_vent",
-    "scguns:mob_trap"
+    "a_warfare:vehement_coal_ore",
+    "a_warfare:vehement_coal_block",
+    "a_warfare:sulfur_vent",
+    "a_warfare:mob_trap"
   ]
 }

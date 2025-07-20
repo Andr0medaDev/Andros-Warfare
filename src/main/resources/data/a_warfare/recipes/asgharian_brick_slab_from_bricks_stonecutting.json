@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "a_warfare:asgharian_bricks"
+  },
+  "result": "a_warfare:asgharian_brick_slab"
+}

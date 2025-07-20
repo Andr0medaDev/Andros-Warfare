@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ammo",
+  "ingredients": [
+    {
+      "item": "a_warfare:gunpowder_dust"
+    },
+    {
+      "item": "a_warfare:hardened_pebbles"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "a_warfare:grapeshot"
+  }
+}

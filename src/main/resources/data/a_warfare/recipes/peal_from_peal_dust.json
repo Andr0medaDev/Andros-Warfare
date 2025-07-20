@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ammo",
+  "ingredients": [
+    {
+      "item": "a_warfare:peal_dust"
+    },  {
+      "item": "a_warfare:peal_dust"
+    },  {
+      "item": "a_warfare:peal_dust"
+    },  {
+      "item": "a_warfare:peal_dust"
+    },  {
+      "item": "a_warfare:peal_dust"
+    },  {
+      "item": "a_warfare:peal_dust"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "a_warfare:peal"
+  }
+}

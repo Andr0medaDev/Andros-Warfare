@@ -1,0 +1,38 @@
+{
+  "parent": "a_warfare:main/ocean_blueprint",
+  "criteria": {
+    "floundergat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "a_warfare:floundergat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "a_warfare.advancement.floundergat.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "a_warfare:floundergat"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "a_warfare.advancement.floundergat"
+    }
+  },
+  "requirements": [
+    [
+      "floundergat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

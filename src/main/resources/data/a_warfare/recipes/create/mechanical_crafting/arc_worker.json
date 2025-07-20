@@ -1,0 +1,44 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "a_warfare:gun_grip"
+    },
+    "C": {
+      "item": "a_warfare:treated_brass_gun_frame"
+    },
+    "L": {
+      "item": "a_warfare:firing_unit"
+    },
+    "R": {
+      "item": "a_warfare:gun_parts"
+    },
+    "S": {
+      "item": "a_warfare:gun_barrel"
+    },
+    "X": {
+      "item": "a_warfare:gun_magazine"
+    },
+    "V": {
+      "item": "a_warfare:copper_gun_frame"
+    },
+    "P": {
+      "item": "a_warfare:copper_blueprint"
+    },
+"I": {
+  "item": "minecraft:redstone"
+},
+"B": {
+    "item": "a_warfare:anthralite_ingot"
+}
+  },
+  "pattern": [
+    "CVIP ",
+    "LRSB ",
+    "Q X  "
+  ],
+  "result": {
+    "item": "a_warfare:arc_worker"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "a_warfare:anthralite_block"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "a_warfare:heavy_gun_parts",
+        "count": 2
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_heavy_gun_parts"
+        }
+      ],
+      "processingTime": 50,
+      "results": [
+        {
+          "item": "a_warfare:unfinished_heavy_gun_parts"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_heavy_gun_parts"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_heavy_gun_parts"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_heavy_gun_parts"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_heavy_gun_parts"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "a_warfare:unfinished_heavy_gun_parts"
+        }
+      ],
+      "results": [
+        {
+          "item": "a_warfare:unfinished_heavy_gun_parts"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "a_warfare:unfinished_heavy_gun_parts"
+  }
+}

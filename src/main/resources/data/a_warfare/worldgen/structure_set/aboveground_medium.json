@@ -1,0 +1,27 @@
+{
+  "structures": [
+    {
+      "structure": "a_warfare:osgood_lab",
+      "weight": 2
+    },
+    {
+      "structure": "a_warfare:osgood_lab_outpost",
+      "weight": 3
+    },
+    {
+      "structure": "a_warfare:asgharian_tower",
+      "weight": 4
+    },
+    {
+      "structure": "a_warfare:asgharian_citadel",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 109345295,
+    "locate_offset": [0, 4, -5],
+    "spacing": 90,
+    "separation":  30
+  }
+}

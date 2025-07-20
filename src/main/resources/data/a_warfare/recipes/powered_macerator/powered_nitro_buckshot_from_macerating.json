@@ -1,0 +1,23 @@
+{
+  "type": "a_warfare:powered_macerating",
+  "processingTime": 50,
+  "energyUse": 1000,
+  "ingredients": [
+    {
+      "item": "a_warfare:nitro_powder_dust"
+    },
+    {
+      "item": "a_warfare:buckshot"
+    },
+    {
+      "item": "a_warfare:buckshot"
+    },
+    {
+      "item": "a_warfare:phosphor_dust"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "a_warfare:nitro_buckshot"
+  }
+}
