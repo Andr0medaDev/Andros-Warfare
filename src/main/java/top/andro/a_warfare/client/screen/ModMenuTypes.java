@@ -12,6 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import top.andro.a_warfare.Reference;
 import top.andro.a_warfare.client.screen.widget.ThermolithMenu;
+import top.andro.a_warfare.common.container.GunsteelWorkbenchContainer;
 
 
 public class ModMenuTypes {
@@ -47,9 +48,6 @@ public static final RegistryObject<MenuType<BasicTurretMenu>> BASIC_TURRET_MENU 
             MENUS.register("mechanical_press_menu", () -> IForgeMenuType.create(MechanicalPressMenu::new));
     public static final RegistryObject<MenuType<PoweredMechanicalPressMenu>> POWERED_MECHANICAL_PRESS_MENU =
             MENUS.register("powered_mechanical_press_menu", () -> IForgeMenuType.create(PoweredMechanicalPressMenu::new));
-
-    public static final RegistryObject<MenuType<GunBenchMenu>> GUN_BENCH
-            = registerMenuType("gun_bench", GunBenchMenu::new);
 
     public static final RegistryObject<MenuType<ChestMenu>> SUPPLY_SCAMP_MENU =
             registerMenuType("supply_scamp_menu", (id, playerInventory, buffer) ->

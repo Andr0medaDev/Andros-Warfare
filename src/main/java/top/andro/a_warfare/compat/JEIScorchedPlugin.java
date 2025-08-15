@@ -14,6 +14,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeManager;
 import top.andro.a_warfare.Reference;
 import top.andro.a_warfare.client.screen.*;
+import top.andro.a_warfare.crafting.GunsteelWorkbenchRecipe;
 import top.andro.a_warfare.init.ModBlocks;
 import top.andro.a_warfare.init.ModItems;
 
@@ -32,7 +33,7 @@ public class JEIScorchedPlugin implements IModPlugin {
     @Override
     public void registerCategories(IRecipeCategoryRegistration registration) {
         IGuiHelper guiHelper = registration.getJeiHelpers().getGuiHelper();
-        registration.addRecipeCategories(new GunBenchCategory(guiHelper));
+        //registration.addRecipeCategories(new GunsteelWorkbenchCategory(guiHelper));
         registration.addRecipeCategories(new MaceratorCategory(guiHelper));
         registration.addRecipeCategories(new PoweredMaceratorCategory(guiHelper));
         registration.addRecipeCategories(new MechanicalPressCategory(guiHelper));
@@ -101,13 +102,13 @@ public class JEIScorchedPlugin implements IModPlugin {
 
 
 
-        List<GunBenchRecipe> gunBenchRecipes = recipeManager.getAllRecipesFor(GunBenchRecipe.Type.INSTANCE);
+        //List<GunsteelWorkbenchRecipe> gunBenchRecipes = recipeManager.getAllRecipesFor(GunsteelWorkbenchRecipe.Type.INSTANCE);
         List<MaceratorRecipe> maceratorRecipes = recipeManager.getAllRecipesFor(MaceratorRecipe.Type.INSTANCE);
         List<PoweredMaceratorRecipe> poweredMaceratorRecipes = recipeManager.getAllRecipesFor(PoweredMaceratorRecipe.Type.INSTANCE);
         List<MechanicalPressRecipe> mechanicalPressRecipes = recipeManager.getAllRecipesFor(MechanicalPressRecipe.Type.INSTANCE);
 
         List<PoweredMechanicalPressRecipe> poweredMechanicalPressRecipes = recipeManager.getAllRecipesFor(PoweredMechanicalPressRecipe.Type.INSTANCE);
-        registration.addRecipes(GunBenchCategory.GUN_BENCH_TYPE, gunBenchRecipes);
+        //registration.addRecipes(GunsteelWorkbenchCategory.GUNSTEEL_WORKBENCH_TYPE, gunBenchRecipes);
         registration.addRecipes(MaceratorCategory.MACERATING_TYPE, maceratorRecipes);
         registration.addRecipes(PoweredMaceratorCategory.POWERED_MACERATING_TYPE, poweredMaceratorRecipes);
         registration.addRecipes(MechanicalPressCategory.MECHANICAL_PRESS_TYPE, mechanicalPressRecipes);
@@ -119,7 +120,7 @@ public class JEIScorchedPlugin implements IModPlugin {
 
     @Override
     public void registerGuiHandlers(IGuiHandlerRegistration registration) {
-        registration.addRecipeClickArea(GunBenchScreen.class, 100, 47, 30, 20, GunBenchCategory.GUN_BENCH_TYPE);
+        //registration.addRecipeClickArea(GunsteelWorkbenchScreen.class, 100, 47, 30, 20, GunsteelWorkbenchCategory.GUNSTEEL_WORKBENCH_TYPE);
         registration.addRecipeClickArea(MaceratorScreen.class, 80, 25, 30, 20, MaceratorCategory.MACERATING_TYPE);
         registration.addRecipeClickArea(PoweredMaceratorScreen.class, 80, 25, 25, 20, PoweredMaceratorCategory.POWERED_MACERATING_TYPE);
         registration.addRecipeClickArea(MechanicalPressScreen.class, 80, 25, 25, 20, MechanicalPressCategory.MECHANICAL_PRESS_TYPE);
@@ -129,7 +130,7 @@ public class JEIScorchedPlugin implements IModPlugin {
 
     @Override
     public void registerRecipeCatalysts(IRecipeCatalystRegistration registration) {
-        registration.addRecipeCatalyst(new ItemStack(ModBlocks.GUN_BENCH.get()), GunBenchCategory.GUN_BENCH_TYPE);
+        //registration.addRecipeCatalyst(new ItemStack(ModBlocks.GUNSTEEL_WORKBENCH.get()), GunsteelWorkbenchCategory.GUNSTEEL_WORKBENCH_TYPE);
         registration.addRecipeCatalyst(new ItemStack(ModBlocks.MACERATOR.get()), MaceratorCategory.MACERATING_TYPE);
         registration.addRecipeCatalyst(new ItemStack(ModBlocks.POWERED_MACERATOR.get()), PoweredMaceratorCategory.POWERED_MACERATING_TYPE);
         registration.addRecipeCatalyst(new ItemStack(ModBlocks.MECHANICAL_PRESS.get()), MechanicalPressCategory.MECHANICAL_PRESS_TYPE);

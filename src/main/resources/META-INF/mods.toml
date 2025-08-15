@@ -6,9 +6,9 @@ license="GNU GPLv3"
 modId="a_warfare"
 version="0.0.1"
 displayName="Andro's Warfare"
-authors="Andro"
+authors="andro"
 credits="MrCrayfish, Ribs, MigaMi, NineZero"
-description="A Minecraft Mod centered arounding implementing Survival Friendly Guns!"
+description="SCORCHED GUNSSSSS"
 
 [[dependencies.a_warfare]]
     modId="forge"

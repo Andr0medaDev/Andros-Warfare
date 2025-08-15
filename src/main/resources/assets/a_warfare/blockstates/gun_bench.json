@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "a_warfare:block/gun_bench", "y": 0 },
-        "facing=south": { "model": "a_warfare:block/gun_bench", "y": 180 },
-        "facing=west": { "model": "a_warfare:block/gun_bench", "y": 270 },
-        "facing=east": { "model": "a_warfare:block/gun_bench", "y": 90 }
-    }
-}

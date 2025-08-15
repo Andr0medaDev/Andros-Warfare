@@ -30,7 +30,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jetbrains.annotations.Nullable;
-import top.andro.a_warfare.AWarfare;
+import top.andro.a_warfare.ScorchedGuns;
 import top.andro.a_warfare.entity.config.CogMinionConfig;
 import top.andro.a_warfare.entity.weapon.ScGunsWeapon;
 import top.andro.a_warfare.interfaces.IEntityCanReload;
@@ -128,7 +128,7 @@ public class CogMinionEntity extends Monster implements IEntityCanReload {
     public SpawnGroupData finalizeSpawn(ServerLevelAccessor pLevel, DifficultyInstance pDifficulty, MobSpawnType pReason, @Nullable SpawnGroupData pSpawnData, @Nullable CompoundTag pDataTag) {
         super.finalizeSpawn(pLevel, pDifficulty, pReason, pSpawnData, pDataTag);
         RandomSource random = pLevel.getRandom();
-        CogMinionConfig config = AWarfare.COG_MINION_CONFIG;
+        CogMinionConfig config = ScorchedGuns.COG_MINION_CONFIG;
 
         if (random.nextFloat() < config.getSpawnWithItemChance()) {
             CogMinionConfig.ItemSpawnData spawnData = selectItemBasedOnChance(config.getItems(), random);

@@ -16,7 +16,7 @@
 
 
   "block.a_warfare.macerator": "Дробарка",
-  "block.a_warfare.gun_bench": "Стіл Зброяра",
+  "block.a_warfare.gunsteel_workbench": "Стіл Зброяра",
   "block.a_warfare.mechanical_press": "Штамповочний Прес",
   "block.a_warfare.sulfur_block": "Блок сірки",
    "block.a_warfare.niter_block": "Блок Селітри",
@@ -429,7 +429,7 @@
   "perk.a_warfare.ammo_capacity.decrease": "Зменшена Вмістимість Магазину",
   "gui.a_warfare.assemble": "Збірка",
   "gui.a_warfare.show_remaining": "Показати Залишив",
-  "button.categories.a_warfare": "Andro's Warfare",
+  "button.categories.a_warfare": "Scorched Guns",
   "a_warfare.button.shoot": "Стріляти",
   "a_warfare.button.aim": "Прицілитись",
   "a_warfare.button.reload": "Перезарядка",
@@ -448,7 +448,7 @@
   "container.mechanical_press": "Штамповочний Прес",
   "container.macerator": "Змішувач",
   "gui.jei.category.macerating.time.seconds": "Час",
-  "container.gun_bench": "Стіл Зброяра",
+  "container.gunsteel_workbench": "Стіл Зброяра",
   "creativetab.scorched_guns_tab": "Чудернацька Зброя",
 
   "a_warfare.jei.info.repair_kit": "Може ремонтувати зброю на наковальні",

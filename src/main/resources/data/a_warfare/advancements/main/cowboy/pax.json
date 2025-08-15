@@ -1,5 +1,5 @@
 {
-  "parent": "a_warfare:main/craft_gun_bench",
+  "parent": "a_warfare:main/craft_gunsteel_workbench",
   "criteria": {
     "pax": {
       "conditions": {

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "a_warfare:gun_bench"
+          "name": "a_warfare:gunsteel_workbench"
         }
       ],
       "rolls": 1.0

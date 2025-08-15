@@ -118,8 +118,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(3.0F)
                     .noOcclusion()));
-    public static final RegistryObject<Block> GUN_BENCH = register("gun_bench",
-            () -> new GunBenchBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)
+    public static final RegistryObject<Block> GUNSTEEL_WORKBENCH = register("gunsteel_workbench",
+            () -> new GunsteelWorkbenchBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)
                     .requiresCorrectToolForDrops()
                     .strength(2.5F)
                     .noOcclusion()));

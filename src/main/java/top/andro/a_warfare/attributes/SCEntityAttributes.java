@@ -4,9 +4,9 @@ import net.minecraftforge.event.entity.EntityAttributeModificationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.entity.EntityType;
-import top.andro.a_warfare.AWarfare;
+import top.andro.a_warfare.ScorchedGuns;
 
-@Mod.EventBusSubscriber(modid = AWarfare.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = ScorchedGuns.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class SCEntityAttributes {
     @SubscribeEvent
     public static void onEntityAttributeModification(EntityAttributeModificationEvent event) {

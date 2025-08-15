@@ -12,11 +12,12 @@ import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import org.jetbrains.annotations.NotNull;
+import top.andro.a_warfare.crafting.GunsteelWorkbenchRecipe;
 import top.andro.a_warfare.item.BlueprintItem;
 
 import java.util.Optional;
 
-public class GunBenchMenu extends AbstractContainerMenu {
+/*public class GunsteelWorkbenchMenu extends AbstractContainerMenu {
     private final Container container;
     private final ContainerLevelAccess containerAccess;
 
@@ -33,16 +34,16 @@ public class GunBenchMenu extends AbstractContainerMenu {
     public static final int SLOT_OUTPUT = 10;
     public static final int SLOT_BLUEPRINT = 11;
 
-    public GunBenchMenu(int id, Inventory playerInventory, FriendlyByteBuf extraData) {
+    public GunsteelWorkbenchMenu(int id, Inventory playerInventory, FriendlyByteBuf extraData) {
         this(id, playerInventory, new SimpleContainer(12), ContainerLevelAccess.NULL);
     }
 
-    public GunBenchMenu(int id, Inventory playerInventory, ContainerLevelAccess containerAccess) {
+    public GunsteelWorkbenchMenu(int id, Inventory playerInventory, ContainerLevelAccess containerAccess) {
         this(id, playerInventory, new SimpleContainer(12), containerAccess);
     }
 
-    public GunBenchMenu(int id, Inventory playerInventory, Container container, ContainerLevelAccess containerAccess) {
-        super(ModMenuTypes.GUN_BENCH.get(), id);
+    public GunsteelWorkbenchMenu(int id, Inventory playerInventory, Container container, ContainerLevelAccess containerAccess) {
+        super(ModMenuTypes.GUNSTEEL_WORKBENCH.get(), id);
         checkContainerSize(container, 12);
         this.container = container;
         this.containerAccess = containerAccess;
@@ -102,7 +103,7 @@ public class GunBenchMenu extends AbstractContainerMenu {
                     craftingContainer.setItem(i, container.getItem(i));
                 }
 
-                Optional<GunBenchRecipe> recipe = level.getRecipeManager().getRecipeFor(GunBenchRecipe.Type.INSTANCE, craftingContainer, level);
+                Optional<GunsteelWorkbenchRecipe> recipe = level.getRecipeManager().getRecipeFor(GunsteelWorkbenchRecipe.Type.INSTANCE, craftingContainer, level);
 
                 if (recipe.isPresent()) {
                     ItemStack result = recipe.get().assemble(craftingContainer, level.registryAccess());
@@ -122,9 +123,9 @@ public class GunBenchMenu extends AbstractContainerMenu {
                     craftingContainer.setItem(i, container.getItem(i));
                 }
 
-                Optional<GunBenchRecipe> recipeOptional = level.getRecipeManager().getRecipeFor(GunBenchRecipe.Type.INSTANCE, craftingContainer, level);
+                Optional<GunsteelWorkbenchRecipe> recipeOptional = level.getRecipeManager().getRecipeFor(GunsteelWorkbenchRecipe.Type.INSTANCE, craftingContainer, level);
                 if (recipeOptional.isPresent()) {
-                    GunBenchRecipe recipe = recipeOptional.get();
+                    GunsteelWorkbenchRecipe recipe = recipeOptional.get();
                     NonNullList<Ingredient> ingredients = recipe.getIngredients();
 
                     for (int i = 0; i < ingredients.size(); i++) {
@@ -183,4 +184,4 @@ public class GunBenchMenu extends AbstractContainerMenu {
 
         return itemstack;
     }
-}
+}*/

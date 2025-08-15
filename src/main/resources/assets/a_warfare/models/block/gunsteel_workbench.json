@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "a_warfare:block/gun_bench",
-		"particle": "a_warfare:block/gun_bench"
+		"1": "a_warfare:block/gunsteel_workbench",
+		"particle": "a_warfare:block/gunsteel_workbench"
 	},
 	"elements": [
 		{
@@ -182,7 +182,7 @@
 	},
 	"groups": [
 		{
-			"name": "GunBench",
+			"name": "GunsteelWorkbench",
 			"origin": [7.5, 12, 8],
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]

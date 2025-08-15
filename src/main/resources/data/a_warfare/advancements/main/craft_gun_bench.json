@@ -1,12 +1,12 @@
 {
   "parent": "a_warfare:main/root",
   "criteria": {
-    "gun_bench": {
+    "gunsteel_workbench": {
       "conditions": {
         "items": [
           {
             "items": [
-              "a_warfare:gun_bench"
+              "a_warfare:gunsteel_workbench"
             ]
           }
         ]
@@ -17,21 +17,21 @@
   "display": {
     "announce_to_chat": false,
     "description": {
-      "translate": "a_warfare.advancement.craft_gun_bench.desc"
+      "translate": "a_warfare.advancement.craft_gunsteel_workbench.desc"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "a_warfare:gun_bench"
+      "item": "a_warfare:gunsteel_workbench"
     },
     "show_toast": true,
     "title": {
-      "translate": "a_warfare.advancement.craft_gun_bench"
+      "translate": "a_warfare.advancement.craft_gunsteel_workbench"
     }
   },
   "requirements": [
     [
-      "gun_bench"
+      "gunsteel_workbench"
     ]
   ],
   "sends_telemetry_event": true

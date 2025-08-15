@@ -20,7 +20,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.commons.lang3.Validate;
-import top.andro.a_warfare.AWarfare;
+import top.andro.a_warfare.ScorchedGuns;
 import top.andro.a_warfare.Reference;
 import top.andro.a_warfare.annotation.Validator;
 import top.andro.a_warfare.client.util.Easings;
@@ -95,18 +95,18 @@ public class NetworkGunManager extends SimplePreparableReloadListener<Map<GunIte
                             }
                             else
                             {
-                                AWarfare.LOGGER.error("Couldn't load data file {} as it is missing or malformed. Using default gun data", resourceLocation);
+                                ScorchedGuns.LOGGER.error("Couldn't load data file {} as it is missing or malformed. Using default gun data", resourceLocation);
                                 map.putIfAbsent((GunItem) item, new Gun());
                             }
                         }
                         catch(InvalidObjectException e)
                         {
-                            AWarfare.LOGGER.error("Missing required properties for {}", resourceLocation);
+                            ScorchedGuns.LOGGER.error("Missing required properties for {}", resourceLocation);
                             e.printStackTrace();
                         }
                         catch(IOException e)
                         {
-                            AWarfare.LOGGER.error("Couldn't parse data file {}", resourceLocation);
+                            ScorchedGuns.LOGGER.error("Couldn't parse data file {}", resourceLocation);
                         }
                         catch(IllegalAccessException e)
                         {

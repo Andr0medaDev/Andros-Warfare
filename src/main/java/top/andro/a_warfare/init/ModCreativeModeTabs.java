@@ -425,7 +425,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.POLAR_GENERATOR.get());
                         pOutput.accept(ModBlocks.LIGHTNING_BATTERY.get());
                         pOutput.accept(ModBlocks.LIGHTNING_ROD_CONNECTOR.get());
-                        pOutput.accept(ModBlocks.GUN_BENCH.get());
+                        pOutput.accept(ModBlocks.GUNSTEEL_WORKBENCH.get());
                         pOutput.accept(ModBlocks.MACERATOR.get());
                         pOutput.accept(ModBlocks.MECHANICAL_PRESS.get());
                         pOutput.accept(ModBlocks.POWERED_MACERATOR.get());

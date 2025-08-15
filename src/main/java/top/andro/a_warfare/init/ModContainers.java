@@ -3,10 +3,12 @@ package top.andro.a_warfare.init;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.MenuType;
+import net.minecraftforge.network.IContainerFactory;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import top.andro.a_warfare.Reference;
+import top.andro.a_warfare.blockentity.GunsteelWorkbenchBlockEntity;
 import top.andro.a_warfare.common.container.*;
 
 /**
@@ -14,6 +16,11 @@ import top.andro.a_warfare.common.container.*;
  */
 public class ModContainers {
     public static final DeferredRegister<MenuType<?>> REGISTER = DeferredRegister.create(ForgeRegistries.MENU_TYPES, Reference.MOD_ID);
+
+    public static final RegistryObject<MenuType<GunsteelWorkbenchContainer>> GUNSTEEL_WORKBENCH = register("gunsteel_workbench", (IContainerFactory<GunsteelWorkbenchContainer>) (windowId, playerInventory, data) -> {
+        GunsteelWorkbenchBlockEntity gunsteel_workbench = (GunsteelWorkbenchBlockEntity) playerInventory.player.level().getBlockEntity(data.readBlockPos());
+        return new GunsteelWorkbenchContainer(windowId, playerInventory, gunsteel_workbench);
+    });
 
     public static final RegistryObject<MenuType<AttachmentContainer>> ATTACHMENTS = register("attachments", AttachmentContainer::new);
 

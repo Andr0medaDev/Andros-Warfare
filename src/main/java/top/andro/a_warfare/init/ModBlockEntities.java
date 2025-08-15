@@ -33,10 +33,10 @@ public class ModBlockEntities {
                             ModBlocks.NITRO_KEG.get()).build(null));
 
 
-    public static final RegistryObject<BlockEntityType<GunBenchBlockEntity>> GUN_BENCH =
-            BLOCK_ENTITIES.register("gun_bench", () ->
-                    BlockEntityType.Builder.of(GunBenchBlockEntity::new,
-                            ModBlocks.GUN_BENCH.get()).build(null));
+    public static final RegistryObject<BlockEntityType<GunsteelWorkbenchBlockEntity>> GUNSTEEL_WORKBENCH =
+            BLOCK_ENTITIES.register("gunsteel_workbench", () ->
+                    BlockEntityType.Builder.of(GunsteelWorkbenchBlockEntity::new,
+                            ModBlocks.GUNSTEEL_WORKBENCH.get()).build(null));
     public static final RegistryObject<BlockEntityType<CryoniterBlockEntity>> CRYONITER =
             BLOCK_ENTITIES.register("cryoniter", () ->
                     BlockEntityType.Builder.of(CryoniterBlockEntity::new,

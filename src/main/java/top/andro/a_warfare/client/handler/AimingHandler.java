@@ -22,7 +22,7 @@ import net.minecraftforge.common.Tags;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import top.andro.a_warfare.Config;
-import top.andro.a_warfare.AWarfare;
+import top.andro.a_warfare.ScorchedGuns;
 import top.andro.a_warfare.client.KeyBinds;
 import top.andro.a_warfare.client.util.PropertyHelper;
 import top.andro.a_warfare.common.GripType;
@@ -135,7 +135,7 @@ public class AimingHandler
         }
         wasKeyPressed = currentKeyPressed;
 
-        if(AWarfare.controllableLoaded)
+        if(ScorchedGuns.controllableLoaded)
         {
             boolean controllerAiming = ControllerHandler.isAiming();
             if(toggleAdsEnabled)
@@ -291,7 +291,7 @@ public class AimingHandler
                 BlockState state = mc.level.getBlockState(result.getBlockPos());
                 Block block = state.getBlock();
                 // Forge should add a tag for intractable blocks so modders can know which blocks can be interacted with :)
-                return block instanceof EntityBlock || block == ModBlocks.GUN_BENCH .get()||block == ModBlocks.POWERED_MACERATOR .get()||block == ModBlocks.POWERED_MECHANICAL_PRESS .get()||block == ModBlocks.POLAR_GENERATOR .get()||block == ModBlocks.LIGHTNING_BATTERY .get()||block == ModBlocks.MECHANICAL_PRESS .get()|| block == ModBlocks.MACERATOR .get()|| block == Blocks.CRAFTING_TABLE ||  state.is(BlockTags.DOORS) || state.is(BlockTags.TRAPDOORS) || state.is(Tags.Blocks.CHESTS) || state.is(Tags.Blocks.FENCE_GATES);
+                return block instanceof EntityBlock || block == ModBlocks.GUNSTEEL_WORKBENCH .get()||block == ModBlocks.POWERED_MACERATOR .get()||block == ModBlocks.POWERED_MECHANICAL_PRESS .get()||block == ModBlocks.POLAR_GENERATOR .get()||block == ModBlocks.LIGHTNING_BATTERY .get()||block == ModBlocks.MECHANICAL_PRESS .get()|| block == ModBlocks.MACERATOR .get()|| block == Blocks.CRAFTING_TABLE ||  state.is(BlockTags.DOORS) || state.is(BlockTags.TRAPDOORS) || state.is(Tags.Blocks.CHESTS) || state.is(Tags.Blocks.FENCE_GATES);
             }
             else if(mc.hitResult instanceof EntityHitResult result)
             {

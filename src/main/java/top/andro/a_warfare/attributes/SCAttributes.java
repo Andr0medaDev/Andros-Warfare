@@ -5,10 +5,10 @@ import net.minecraft.world.entity.ai.attributes.RangedAttribute;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import top.andro.a_warfare.AWarfare;
+import top.andro.a_warfare.ScorchedGuns;
 
 public class SCAttributes {
-    public static final DeferredRegister<Attribute> ATTRIBUTES = DeferredRegister.create(ForgeRegistries.ATTRIBUTES, AWarfare.MODID);
+    public static final DeferredRegister<Attribute> ATTRIBUTES = DeferredRegister.create(ForgeRegistries.ATTRIBUTES, ScorchedGuns.MODID);
     public static final RegistryObject<Attribute> PROJECTILE_SPEED = ATTRIBUTES.register("projectile_speed",
             () -> new RangedAttribute("attribute.a_warfare.projectile_speed", 1.0, 0.01, 100.0)
                     .setSyncable(true)

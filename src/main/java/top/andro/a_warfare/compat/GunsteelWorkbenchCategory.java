@@ -13,32 +13,32 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import top.andro.a_warfare.Reference;
-import top.andro.a_warfare.client.screen.GunBenchRecipe;
+import top.andro.a_warfare.crafting.GunsteelWorkbenchRecipe;
 import top.andro.a_warfare.init.ModBlocks;
 
-public class GunBenchCategory implements IRecipeCategory<GunBenchRecipe> {
-    public static final ResourceLocation UID = new ResourceLocation(Reference.MOD_ID, "gun_bench");
-    public static final ResourceLocation TEXTURE = new ResourceLocation(Reference.MOD_ID, "textures/gui/gun_bench_gui.png");
-    public static final RecipeType<GunBenchRecipe> GUN_BENCH_TYPE = new RecipeType<>(UID, GunBenchRecipe.class);
+/*public class GunsteelWorkbenchCategory implements IRecipeCategory<GunsteelWorkbenchRecipe> {
+    public static final ResourceLocation UID = new ResourceLocation(Reference.MOD_ID, "gunsteel_workbench");
+    public static final ResourceLocation TEXTURE = new ResourceLocation(Reference.MOD_ID, "textures/gui/gunsteel_workbench_gui.png");
+    public static final RecipeType<GunsteelWorkbenchRecipe> GUNSTEEL_WORKBENCH_TYPE = new RecipeType<>(UID, GunsteelWorkbenchRecipe.class);
     private final IDrawable background;
     private final IDrawable icon;
     private final int offsetX = 22;
     private final int offsetY = 12;
     private final int slotOffsetX = -22;
     private final int slotOffsetY = -12;
-    public GunBenchCategory(IGuiHelper helper) {
+    public GunsteelWorkbenchCategory(IGuiHelper helper) {
         this.background = helper.createDrawable(TEXTURE, offsetX, offsetY, 141, 59);
-        this.icon = helper.createDrawableIngredient(VanillaTypes.ITEM_STACK, new ItemStack(ModBlocks.GUN_BENCH.get()));
+        this.icon = helper.createDrawableIngredient(VanillaTypes.ITEM_STACK, new ItemStack(ModBlocks.GUNSTEEL_WORKBENCH.get()));
     }
 
     @Override
-    public RecipeType<GunBenchRecipe> getRecipeType() {
-        return GUN_BENCH_TYPE;
+    public RecipeType<GunsteelWorkbenchRecipe> getRecipeType() {
+        return GUNSTEEL_WORKBENCH_TYPE;
     }
 
     @Override
     public Component getTitle() {
-        return Component.translatable("block.a_warfare.gun_bench");
+        return Component.translatable("block.a_warfare.gunsteel_workbench");
     }
 
     @Override
@@ -52,7 +52,7 @@ public class GunBenchCategory implements IRecipeCategory<GunBenchRecipe> {
     }
 
     @Override
-    public void setRecipe(IRecipeLayoutBuilder builder, GunBenchRecipe recipe, IFocusGroup focuses) {
+    public void setRecipe(IRecipeLayoutBuilder builder, GunsteelWorkbenchRecipe recipe, IFocusGroup focuses) {
         int[] slotX = {26, 44, 62, 80, 26, 44, 62, 80, 26, 62, 116};
         int[] slotY = {17, 17, 17, 17, 35, 35, 35, 35, 53, 53, 17}; // Add the position for the blueprint slot
 
@@ -74,4 +74,4 @@ public class GunBenchCategory implements IRecipeCategory<GunBenchRecipe> {
         builder.addSlot(RecipeIngredientRole.OUTPUT, 140 + slotOffsetX, 44 + slotOffsetY)
                 .addItemStack(recipe.getResultItem(null));
     }
-}
+}*/

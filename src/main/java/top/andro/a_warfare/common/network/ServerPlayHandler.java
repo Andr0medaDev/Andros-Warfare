@@ -13,6 +13,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
 import net.minecraft.util.Mth;
 import net.minecraft.util.RandomSource;
+import net.minecraft.world.Containers;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.damagesource.DamageSource;
@@ -24,6 +25,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.Arrow;
+import net.minecraft.world.item.DyeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -36,9 +38,13 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.jetbrains.annotations.NotNull;
 import top.andro.a_warfare.Config;
+import top.andro.a_warfare.blockentity.GunsteelWorkbenchBlockEntity;
 import top.andro.a_warfare.client.handler.BeamHandler;
 import top.andro.a_warfare.common.*;
 import top.andro.a_warfare.common.container.AttachmentContainer;
+import top.andro.a_warfare.common.container.GunsteelWorkbenchContainer;
+import top.andro.a_warfare.crafting.GunsteelWorkbenchRecipe;
+import top.andro.a_warfare.crafting.GunsteelWorkbenchRecipes;
 import top.andro.a_warfare.entity.projectile.ProjectileEntity;
 import top.andro.a_warfare.event.GunFireEvent;
 import top.andro.a_warfare.init.ModDamageTypes;
@@ -47,6 +53,7 @@ import top.andro.a_warfare.init.ModItems;
 import top.andro.a_warfare.init.ModSyncedDataKeys;
 import top.andro.a_warfare.interfaces.IProjectileFactory;
 import top.andro.a_warfare.item.GunItem;
+import top.andro.a_warfare.item.IColored;
 import top.andro.a_warfare.item.ammo_boxes.CreativeAmmoBoxItem;
 import top.andro.a_warfare.network.PacketHandler;
 import top.andro.a_warfare.network.message.*;
@@ -564,6 +571,38 @@ public class ServerPlayHandler {
         ItemStack heldItem = player.getMainHandItem();
         if (heldItem.getItem() instanceof GunItem) {
             NetworkHooks.openScreen(player, new SimpleMenuProvider((windowId, playerInventory, player1) -> new AttachmentContainer(windowId, playerInventory, heldItem), Component.translatable("container.a_warfare.attachments")));
+        }
+    }
+
+    public static void handleCraft(ServerPlayer player, ResourceLocation id, BlockPos pos) {
+        Level world = player.level();
+
+        if (player.containerMenu instanceof GunsteelWorkbenchContainer workbench) {
+            if (workbench.getPos().equals(pos)) {
+                GunsteelWorkbenchRecipe recipe = GunsteelWorkbenchRecipes.getRecipeById(world, id);
+                if (recipe == null || !recipe.hasMaterials(player))
+                    return;
+
+                recipe.consumeMaterials(player);
+
+                GunsteelWorkbenchBlockEntity gunsteelWorkbenchBlockEntity = workbench.getWorkbench();
+
+                /* Gets the color based on the dye */
+                ItemStack stack = recipe.getItem();
+                ItemStack dyeStack = gunsteelWorkbenchBlockEntity.getInventory().get(0);
+                if (dyeStack.getItem() instanceof DyeItem) {
+                    DyeItem dyeItem = (DyeItem) dyeStack.getItem();
+                    int color = dyeItem.getDyeColor().getTextColor();
+
+                    if (IColored.isDyeable(stack)) {
+                        IColored colored = (IColored) stack.getItem();
+                        colored.setColor(stack, color);
+                        gunsteelWorkbenchBlockEntity.getInventory().set(0, ItemStack.EMPTY);
+                    }
+                }
+
+                Containers.dropItemStack(world, pos.getX() + 0.5, pos.getY() + 1.125, pos.getZ() + 0.5, stack);
+            }
         }
     }
 }

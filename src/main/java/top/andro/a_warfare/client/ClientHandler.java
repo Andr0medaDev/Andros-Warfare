@@ -25,7 +25,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.util.ObfuscationReflectionHelper;
 import org.lwjgl.glfw.GLFW;
-import top.andro.a_warfare.AWarfare;
+import top.andro.a_warfare.ScorchedGuns;
 import top.andro.a_warfare.Reference;
 import top.andro.a_warfare.client.handler.*;
 import top.andro.a_warfare.client.render.block.*;
@@ -138,7 +138,7 @@ public class ClientHandler {
         MenuScreens.register(ModMenuTypes.POLAR_GENERATOR_MENU.get(), PolarGeneratorScreen::new);
         MenuScreens.register(ModMenuTypes.CRYONITER_MENU.get(), CryoniterScreen::new);
         MenuScreens.register(ModMenuTypes.THERMOLITH_MENU.get(), ThermolithScreen::new);
-        MenuScreens.register(ModMenuTypes.GUN_BENCH.get(), GunBenchScreen::new);
+        MenuScreens.register(ModContainers.GUNSTEEL_WORKBENCH.get(), GunsteelWorkbenchScreen::new);
         EntityRenderers.register(ModEntities.COG_MINION.get(), CogMinionRenderer::new);
         EntityRenderers.register(ModEntities.COG_KNIGHT.get(), CogKnightRenderer::new);
         EntityRenderers.register(ModEntities.SKY_CARRIER.get(), SkyCarrierRenderer::new);
@@ -182,7 +182,7 @@ public class ClientHandler {
         MinecraftForge.EVENT_BUS.register(SoundHandler.get());
         MinecraftForge.EVENT_BUS.register(new PlayerModelHandler());
 
-        if (AWarfare.controllableLoaded) {
+        if (ScorchedGuns.controllableLoaded) {
             ControllerHandler.init();
             GunButtonBindings.register();
         }
