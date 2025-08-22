@@ -14,7 +14,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.core.animatable.GeoAnimatable;
 import software.bernie.geckolib.core.animation.AnimationController;
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 import top.andro.a_warfare.client.KeyBinds;
 import top.andro.a_warfare.common.*;
 import top.andro.a_warfare.compat.PlayerReviveHelper;
@@ -136,7 +136,7 @@ public class ShootingHandler
                 Gun modifiedGun = gunItem.getModifiedGun(heldItem);
 
                 boolean shouldShoot = KeyBinds.getShootMapping().isDown() || (burstCounter > 0 && Gun.hasBurstFire(heldItem));
-                if (ScorchedGuns.controllableLoaded) {
+                if (AWarfare.controllableLoaded) {
                     shouldShoot |= ControllerHandler.isShooting();
                 }
 

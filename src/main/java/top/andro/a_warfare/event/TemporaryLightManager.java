@@ -11,7 +11,7 @@ import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.level.LevelEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import top.andro.a_warfare.Config;
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 
 import java.util.Iterator;
 import java.util.Map;
@@ -92,7 +92,7 @@ public class TemporaryLightManager {
             level.sendBlockUpdated(pos, currentState, lightBlock, 3);
             temporaryLights.put(posKey, new LightData(duration, currentState, level.dimension()));
         } catch (Exception e) {
-            ScorchedGuns.LOGGER.error("Error in addTemporaryLight: " + e.getMessage(), e);
+            AWarfare.LOGGER.error("Error in addTemporaryLight: " + e.getMessage(), e);
             removeLight(level, pos);
         }
     }
@@ -191,7 +191,7 @@ public class TemporaryLightManager {
                 level.sendBlockUpdated(pos, currentState, airState, 3);
             }
         } catch (Exception e) {
-            ScorchedGuns.LOGGER.error("Error removing light: " + e.getMessage(), e);
+            AWarfare.LOGGER.error("Error removing light: " + e.getMessage(), e);
         }
     }
     @SubscribeEvent

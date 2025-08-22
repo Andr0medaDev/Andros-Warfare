@@ -45,7 +45,7 @@ import software.bernie.geckolib.core.animatable.GeoAnimatable;
 import software.bernie.geckolib.core.animation.AnimationController;
 import top.andro.a_warfare.Config;
 import top.andro.a_warfare.Reference;
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 import top.andro.a_warfare.block.SulfurVentBlock;
 import top.andro.a_warfare.client.handler.MeleeAttackHandler;
 import top.andro.a_warfare.common.*;
@@ -154,7 +154,7 @@ public class GunEventBus {
                     }
                 }
             } catch (Exception e) {
-                ScorchedGuns.LOGGER.error("Error in preShoot animation handling: " + e.getMessage());
+                AWarfare.LOGGER.error("Error in preShoot animation handling: " + e.getMessage());
             }
         }
         if (heldItem.getItem() instanceof GunItem gunItem) {
@@ -187,7 +187,7 @@ public class GunEventBus {
                     }
                 }
 
-                if (ScorchedGuns.createLoaded && heldItem.getItem() instanceof IAirGun) {
+                if (AWarfare.createLoaded && heldItem.getItem() instanceof IAirGun) {
                     List<ItemStack> backtanks = BacktankUtil.getAllWithAir(player);
                     if (backtanks.isEmpty()) {
                         player.displayClientMessage(Component.translatable("message.airgun.no_air")

@@ -1,6 +1,6 @@
 package top.andro.a_warfare.compat;
 
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 import net.minecraft.world.entity.player.Player;
 
 import java.lang.reflect.InvocationTargetException;
@@ -17,7 +17,7 @@ public class PlayerReviveHelper
 
     public static boolean isBleeding(Player player)
     {
-        if(!ScorchedGuns.playerReviveLoaded || disable)
+        if(!AWarfare.playerReviveLoaded || disable)
             return false;
 
         try

@@ -9,7 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import top.andro.a_warfare.Reference;
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 import top.andro.a_warfare.common.Attachments;
 import top.andro.a_warfare.common.GunModifiers;
 import top.andro.a_warfare.item.*;
@@ -35,7 +35,7 @@ public class ModItems {
     public static void registerItems() {
         SCRATCHES = REGISTER.register("scratches", () -> {
             Item.Properties properties = new Item.Properties().stacksTo(1).durability(560);
-            if (!ScorchedGuns.shouldUseEnergyGuns()) {
+            if (!AWarfare.shouldUseEnergyGuns()) {
                 return new AnimatedAirGunItem(properties,
                         "scratches",
                         ModSounds.MAG_OUT.get(),
@@ -58,7 +58,7 @@ public class ModItems {
         });
         GALE = REGISTER.register("gale", () -> {
             Item.Properties properties = new Item.Properties().stacksTo(1).durability(560);
-            if (!ScorchedGuns.shouldUseEnergyGuns()) {
+            if (!AWarfare.shouldUseEnergyGuns()) {
                 return new AnimatedAirGunItem(properties,
                         "gale",
                         ModSounds.MAG_OUT.get(),
@@ -81,7 +81,7 @@ public class ModItems {
         });
         UMAX_PISTOL = REGISTER.register("umax_pistol", () -> {
             Item.Properties properties = new Item.Properties().stacksTo(1).durability(560);
-            if (!ScorchedGuns.shouldUseEnergyGuns()) {
+            if (!AWarfare.shouldUseEnergyGuns()) {
                 return new AnimatedAirGunItem(properties,
                         "umax_pistol",
                         ModSounds.MAG_OUT.get(),
@@ -106,7 +106,7 @@ public class ModItems {
 
         VENTURI = REGISTER.register("venturi", () -> {
             Item.Properties properties = new Item.Properties().stacksTo(1).durability(560);
-            if (!ScorchedGuns.shouldUseEnergyGuns()) {
+            if (!AWarfare.shouldUseEnergyGuns()) {
                 return new AnimatedAirGunItem(properties,
                         "venturi",
                         ModSounds.MAG_OUT.get(),
@@ -129,7 +129,7 @@ public class ModItems {
         });
 
 
-        if (ScorchedGuns.farmersDelightLoaded) {
+        if (AWarfare.farmersDelightLoaded) {
             ANTHRALITE_KNIFE = REGISTER.register("anthralite_knife", () -> {
                 try {
                     Class<?> knifeItemClass = Class.forName("vectorwing.farmersdelight.common.item.KnifeItem");
@@ -150,7 +150,7 @@ public class ModItems {
     private static GunItem createGunItem(int durability, int energyCapacity) {
         Item.Properties properties = new Item.Properties().stacksTo(1).durability(durability);
 
-        if (!ScorchedGuns.shouldUseEnergyGuns()) {
+        if (!AWarfare.shouldUseEnergyGuns()) {
             return new AirGunItem(properties);
         } else {
             return new EnergyGunItem(properties, energyCapacity);

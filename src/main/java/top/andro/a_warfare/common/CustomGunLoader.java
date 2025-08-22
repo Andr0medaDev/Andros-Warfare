@@ -4,7 +4,7 @@ import com.google.common.collect.ImmutableMap;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 import top.andro.a_warfare.Reference;
 import top.andro.a_warfare.annotation.Validator;
 import net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener;
@@ -63,12 +63,12 @@ public class CustomGunLoader extends SimpleJsonResourceReloadListener
                 }
                 else
                 {
-                    ScorchedGuns.LOGGER.error("Couldn't load data file {} as it is missing or malformed", resourceLocation);
+                    AWarfare.LOGGER.error("Couldn't load data file {} as it is missing or malformed", resourceLocation);
                 }
             }
             catch(InvalidObjectException e)
             {
-                ScorchedGuns.LOGGER.error("Missing required properties for {}", resourceLocation);
+                AWarfare.LOGGER.error("Missing required properties for {}", resourceLocation);
                 e.printStackTrace();
             }
             catch(IllegalAccessException e)

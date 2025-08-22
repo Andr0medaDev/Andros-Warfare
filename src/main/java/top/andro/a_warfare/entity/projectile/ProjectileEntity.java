@@ -44,7 +44,7 @@ import net.minecraftforge.entity.IEntityAdditionalSpawnData;
 import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.valkyrienskies.mod.common.world.RaycastUtilsKt;
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 import top.andro.a_warfare.attributes.SCAttributes;
 import top.andro.a_warfare.block.NitroKegBlock;
 import top.andro.a_warfare.block.PowderKegBlock;
@@ -915,7 +915,7 @@ public class ProjectileEntity extends Entity implements IEntityAdditionalSpawnDa
      */
     static BlockHitResult rayTraceBlocks(Level world, ClipContext context, Predicate<BlockState> ignorePredicate) {
         return performRayTrace(context, (rayTraceContext, blockPos) -> {
-            if (ScorchedGuns.valkyrienSkiesLoaded)
+            if (AWarfare.valkyrienSkiesLoaded)
                 return RaycastUtilsKt.clipIncludeShips(world, context); ///Thanks Miga!
             BlockState blockState = world.getBlockState(blockPos);
             if (ignorePredicate.test(blockState)) return null;

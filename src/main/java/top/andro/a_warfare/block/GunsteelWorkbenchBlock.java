@@ -21,27 +21,48 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.network.NetworkHooks;
 import org.jetbrains.annotations.Nullable;
 import top.andro.a_warfare.blockentity.GunsteelWorkbenchBlockEntity;
+import top.andro.a_warfare.util.VoxelShapeHelper;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import static net.minecraft.world.level.block.WeepingVinesPlantBlock.SHAPE;
 
-public class GunsteelWorkbenchBlock  extends Block implements EntityBlock {
-    private static final Component CONTAINER_TITLE = Component.translatable("container.gunsteel_workbench");
-    public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
+public class GunsteelWorkbenchBlock  extends RotatedObjectBlock implements EntityBlock {
+
+    public final Map<BlockState, VoxelShape> SHAPES = new HashMap<>();
 
     public GunsteelWorkbenchBlock(BlockBehaviour.Properties properties) {
         super(properties);
     }
 
+    private VoxelShape getShape(BlockState state)
+    {
+        if(SHAPES.containsKey(state))
+        {
+            return SHAPES.get(state);
+        }
+        Direction direction = state.getValue(FACING);
+        List<VoxelShape> shapes = new ArrayList<>();
+        shapes.add(Block.box(0.0, 0, 0.5, 16, 15, 16));
+        shapes.add(VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(0, 15, 0, 16, 16, 2), Direction.SOUTH))[direction.get2DDataValue()]);
+        VoxelShape shape = VoxelShapeHelper.combineAll(shapes);
+        SHAPES.put(state, shape);
+        return shape;
+    }
+
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter reader, BlockPos pos, CollisionContext context)
     {
-        return SHAPE;
+        return this.getShape(state);
     }
 
     @Override
     public VoxelShape getOcclusionShape(BlockState state, BlockGetter reader, BlockPos pos)
     {
-        return SHAPE;
+        return this.getShape(state);
     }
 
     @Override

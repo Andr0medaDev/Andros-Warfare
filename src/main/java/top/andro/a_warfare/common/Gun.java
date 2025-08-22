@@ -22,7 +22,7 @@ import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.commons.lang3.tuple.Pair;
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 import top.andro.a_warfare.Reference;
 import top.andro.a_warfare.annotation.Ignored;
 import top.andro.a_warfare.annotation.Optional;
@@ -2346,7 +2346,7 @@ public class Gun implements INBTSerializable<CompoundTag>, IEditorMenu {
                 ItemStack scopeStack = ItemStack.of(attachment.getCompound("Scope"));
                 Scope scope = null;
                 if (scopeStack.getItem() instanceof ScopeItem scopeItem) {
-                    if (ScorchedGuns.isDebugging()) {
+                    if (AWarfare.isDebugging()) {
                         return Debug.getScope(scopeItem);
                     }
                     scope = scopeItem.getProperties();

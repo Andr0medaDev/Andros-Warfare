@@ -22,7 +22,7 @@ import net.minecraftforge.common.Tags;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import top.andro.a_warfare.Config;
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 import top.andro.a_warfare.client.KeyBinds;
 import top.andro.a_warfare.client.util.PropertyHelper;
 import top.andro.a_warfare.common.GripType;
@@ -135,7 +135,7 @@ public class AimingHandler
         }
         wasKeyPressed = currentKeyPressed;
 
-        if(ScorchedGuns.controllableLoaded)
+        if(AWarfare.controllableLoaded)
         {
             boolean controllerAiming = ControllerHandler.isAiming();
             if(toggleAdsEnabled)

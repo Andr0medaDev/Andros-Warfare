@@ -25,7 +25,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.util.ObfuscationReflectionHelper;
 import org.lwjgl.glfw.GLFW;
-import top.andro.a_warfare.ScorchedGuns;
+import top.andro.a_warfare.AWarfare;
 import top.andro.a_warfare.Reference;
 import top.andro.a_warfare.client.handler.*;
 import top.andro.a_warfare.client.render.block.*;
@@ -182,13 +182,12 @@ public class ClientHandler {
         MinecraftForge.EVENT_BUS.register(SoundHandler.get());
         MinecraftForge.EVENT_BUS.register(new PlayerModelHandler());
 
-        if (ScorchedGuns.controllableLoaded) {
+        if (AWarfare.controllableLoaded) {
             ControllerHandler.init();
             GunButtonBindings.register();
         }
         setupRenderLayers();
         registerModelOverrides();
-        registerScreenFactories();
     }
 
     private static void setupRenderLayers() {
@@ -288,6 +287,7 @@ public class ClientHandler {
 
 
     private static void registerScreenFactories() {
+        MenuScreens.register(ModContainers.GUNSTEEL_WORKBENCH.get(), GunsteelWorkbenchScreen::new);
         MenuScreens.register(ModContainers.ATTACHMENTS.get(), AttachmentScreen::new);
     }
 

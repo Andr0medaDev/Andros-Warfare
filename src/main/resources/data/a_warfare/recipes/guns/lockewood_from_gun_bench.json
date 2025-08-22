@@ -28,5 +28,9 @@
     {
       "item": "a_warfare:gun_magazine"
     }
-  ]
+  ],
+  "result": {
+    "item": "a_warfare:lockewood"
+  },
+  "time": 30
 }

@@ -197,7 +197,6 @@ public class GunsteelWorkbenchScreen extends AbstractContainerScreen<GunsteelWor
         this.btnCraft.active = canCraft;
     }
 
-
     @Override
     public boolean mouseClicked(double mouseX, double mouseY, int mouseButton) {
         boolean result = super.mouseClicked(mouseX, mouseY, mouseButton);
